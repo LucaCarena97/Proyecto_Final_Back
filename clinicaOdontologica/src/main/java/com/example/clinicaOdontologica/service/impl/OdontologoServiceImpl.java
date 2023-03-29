@@ -5,6 +5,7 @@ import com.example.clinicaOdontologica.entity.Odontologo;
 import com.example.clinicaOdontologica.repository.IOdontologoRepository;
 import com.example.clinicaOdontologica.service.IOdontologoService;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +16,8 @@ import java.util.Set;
 
 @Service
 public class OdontologoServiceImpl implements IOdontologoService {
+
+    private static final Logger logger = Logger.getLogger(OdontologoServiceImpl.class);
 
     @Autowired
     private IOdontologoRepository odontologoRepository;
@@ -29,17 +32,23 @@ public class OdontologoServiceImpl implements IOdontologoService {
 
     @Override
     public void crearOdontologo(OdontologoDTO odontologoDTO) {
+        logger.debug("Guardando domicilio: " + odontologoDTO);
         saveOdontologo(odontologoDTO);
     }
 
     @Override
     public OdontologoDTO buscarOdontologo(Long id) {
+
+        logger.debug("Buscando odontologo: " + id);
+
         Optional<Odontologo> odontologo = odontologoRepository.findById(id);
         OdontologoDTO odontologoDTO = null;
+
         if (odontologo.isPresent()) {
             odontologoDTO = mapper.convertValue(odontologo, OdontologoDTO.class);
         }
         return odontologoDTO;
+
     }
 
     @Override
@@ -54,12 +63,16 @@ public class OdontologoServiceImpl implements IOdontologoService {
 
     @Override
     public void modificarOdontologo(OdontologoDTO odontologoDTO) {
+        logger.debug("Modificando odontologo");
         saveOdontologo(odontologoDTO);
+
     }
 
     @Override
     public void eliminarOdontologo(Long id) {
+        logger.debug("Eliminando odontologo: " + id);
         odontologoRepository.deleteById(id);
+
     }
 
 }

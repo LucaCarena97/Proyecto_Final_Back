@@ -41,9 +41,7 @@ class DomicilioServiceImplTest {
         domicilioDTO1.setProvincia("Cordoba");
 
         domicilioService.crearDomicilio(domicilioDTO);
-        logger.debug("Creando domicilio: " + domicilioDTO);
         domicilioService.crearDomicilio(domicilioDTO1);
-        logger.debug("Creando domicilio: " + domicilioDTO1);
 
         assertTrue(domicilioDTO != null);
         assertNotNull(domicilioDTO);

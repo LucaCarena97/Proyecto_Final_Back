@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class PacienteServiceImplTest {
 
-    private static final Logger logger = Logger.getLogger(DomicilioServiceImplTest.class);
+    private static final Logger logger = Logger.getLogger(PacienteServiceImplTest.class);
 
     @Autowired
     private IPacienteService pacienteService;
@@ -33,10 +33,9 @@ class PacienteServiceImplTest {
         pacienteDTO.setNombre("Juan");
         pacienteDTO.setApellido("Gonzalez");
         pacienteDTO.setDni("66773322");
-        pacienteDTO.setFechaDeIngreso(new Date(2022, 03, 05));
+        pacienteDTO.setFechaDeIngreso(new Date(122, 03, 05));
 
         pacienteService.crearPaciente(pacienteDTO);
-        logger.debug("Creando paciente" + pacienteDTO);
 
         assertTrue(pacienteDTO != null);
         assertNotNull(pacienteDTO);
@@ -53,8 +52,6 @@ class PacienteServiceImplTest {
 
         pacienteService.eliminarPaciente(4L);
         assertEquals(pacienteService.buscarPaciente(4L), null);
-
-        logger.debug("Eliminando paciente con id: " + 4L);
 
     }
 

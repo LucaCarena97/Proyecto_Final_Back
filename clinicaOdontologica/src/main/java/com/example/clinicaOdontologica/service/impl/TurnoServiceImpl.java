@@ -1,14 +1,11 @@
 package com.example.clinicaOdontologica.service.impl;
 
-import com.example.clinicaOdontologica.dto.PacienteDTO;
 import com.example.clinicaOdontologica.dto.TurnoDTO;
-import com.example.clinicaOdontologica.entity.Paciente;
 import com.example.clinicaOdontologica.entity.Turno;
-import com.example.clinicaOdontologica.repository.IPacienteRepository;
 import com.example.clinicaOdontologica.repository.ITurnoRepository;
-import com.example.clinicaOdontologica.service.IPacienteService;
 import com.example.clinicaOdontologica.service.ITurnoService;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,6 +16,8 @@ import java.util.Set;
 
 @Service
 public class TurnoServiceImpl implements ITurnoService {
+
+    private static final Logger logger = Logger.getLogger(TurnoServiceImpl.class);
 
     @Autowired
     private ITurnoRepository turnoRepository;
@@ -33,11 +32,15 @@ public class TurnoServiceImpl implements ITurnoService {
 
     @Override
     public void crearTurno(TurnoDTO turnoDTO) {
+        logger.debug("Guardando turno: " + turnoDTO);
         saveTurno(turnoDTO);
     }
 
     @Override
     public TurnoDTO buscarTurno(Long id) {
+
+        logger.debug("Buscando turno: " + id);
+
         Optional<Turno> turno = turnoRepository.findById(id);
         TurnoDTO turnoDTO = null;
 
@@ -45,6 +48,7 @@ public class TurnoServiceImpl implements ITurnoService {
             turnoDTO = mapper.convertValue(turno, TurnoDTO.class);
         }
         return turnoDTO;
+
     }
 
     @Override
@@ -56,15 +60,20 @@ public class TurnoServiceImpl implements ITurnoService {
             turnosDTO.add(mapper.convertValue(turno, TurnoDTO.class));
         }
         return turnosDTO;
+
     }
 
     @Override
     public void modificarTurno(TurnoDTO turnoDTO) {
+        logger.debug("Modificando turno");
         saveTurno(turnoDTO);
+
     }
 
     @Override
     public void eliminarTurno(Long id) {
+        logger.debug("Eliminando turno: " + id);
         turnoRepository.deleteById(id);
+
     }
 }

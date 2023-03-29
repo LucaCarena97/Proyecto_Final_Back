@@ -1,6 +1,5 @@
 package com.example.clinicaOdontologica.dto;
 
-import com.example.clinicaOdontologica.entity.Domicilio;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
 import lombok.Setter;

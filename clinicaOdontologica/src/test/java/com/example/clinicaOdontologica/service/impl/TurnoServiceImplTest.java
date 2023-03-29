@@ -18,8 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 class TurnoServiceImplTest {
 
-
-    private static final Logger logger = Logger.getLogger(DomicilioServiceImplTest.class);
+    private static final Logger logger = Logger.getLogger(TurnoServiceImplTest.class);
 
     @Autowired
     private ITurnoService turnoService;
@@ -33,7 +32,6 @@ class TurnoServiceImplTest {
         turnoDTO.setFechaTurno(new Date(122, 04, 25));
 
         turnoService.crearTurno(turnoDTO);
-        logger.debug("Creando turno: " + turnoDTO);
 
         logger.info("ACTUALIZANDO TURNO");
         turnoDTO.setFechaTurno(new Date(123, 05, 11));

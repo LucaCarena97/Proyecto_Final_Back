@@ -22,7 +22,7 @@ public class Turno {
     private Date fechaTurno;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    @JoinColumn(name = "turno_id")
+    @JoinColumn(name = "paciente_id")
     private Paciente paciente;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)

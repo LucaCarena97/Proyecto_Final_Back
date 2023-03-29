@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class OdontologoServiceImplTest {
 
-    private static final Logger logger = Logger.getLogger(DomicilioServiceImplTest.class);
+    private static final Logger logger = Logger.getLogger(OdontologoServiceImplTest.class);
 
     @Autowired
     private IOdontologoService odontologoService;
@@ -33,7 +33,6 @@ public class OdontologoServiceImplTest {
         odontologoDTO.setMatricula(223344);
 
         odontologoService.crearOdontologo(odontologoDTO);
-        logger.debug("Creando odontologo" + odontologoDTO);
 
         assertTrue(odontologoDTO != null);
         assertNotNull(odontologoDTO);
@@ -50,7 +49,7 @@ public class OdontologoServiceImplTest {
 
         odontologoService.buscarOdontologo(1L);
 
-        logger.debug("Buscando odontologo con id: " + 17L);
+        logger.debug("Buscando odontologo con id: " + 1L);
 
     }
 }
