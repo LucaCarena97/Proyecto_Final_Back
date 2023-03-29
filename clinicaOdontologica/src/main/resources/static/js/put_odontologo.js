@@ -20,7 +20,7 @@ window.addEventListener('load', function () {
 
         //invocamos utilizando la función fetch la API estudiantes con el método PUT
         //que modificará al estudiante que enviaremos en formato JSON
-        const url = '/odontologo/act';
+        const url = '/odontologo/update';
         const settings = {
             method: 'PUT',
             headers: {

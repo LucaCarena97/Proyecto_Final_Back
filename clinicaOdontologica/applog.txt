@@ -401,3 +401,7 @@ DEBUG   2023-03-29 17:10:43,790 [main] com.example.clinicaOdontologica.service.i
 DEBUG   2023-03-29 17:18:11,658 [http-nio-8080-exec-4] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Guardando domicilio: OdontologoDTO(id=null, nombre=Luca, apellido=Carena, matricula=112233)
 DEBUG   2023-03-29 17:18:18,253 [http-nio-8080-exec-9] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologo: 19
 DEBUG   2023-03-29 17:18:47,209 [http-nio-8080-exec-1] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologo: 19
+DEBUG   2023-03-29 20:16:40,095 [http-nio-8080-exec-7] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologo: 1
+DEBUG   2023-03-29 20:16:41,914 [http-nio-8080-exec-8] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Modificando odontologo
+DEBUG   2023-03-29 20:16:52,393 [http-nio-8080-exec-4] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Guardando domicilio: OdontologoDTO(id=null, nombre=Pedro, apellido=Pepe, matricula=334455)
+DEBUG   2023-03-29 20:17:01,858 [http-nio-8080-exec-10] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologo: 20

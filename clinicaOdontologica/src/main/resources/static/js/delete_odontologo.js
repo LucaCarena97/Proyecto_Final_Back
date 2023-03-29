@@ -1,7 +1,7 @@
 function deleteBy(id) {
     //con fetch invocamos a la API de estudiantes con el método DELETE
     //pasandole el id en la URL
-    const url = '/odontologo/' + id;
+    const url = '/odontologo/delete/' + id;
     const settings = {
         method: 'DELETE',
         headers: {

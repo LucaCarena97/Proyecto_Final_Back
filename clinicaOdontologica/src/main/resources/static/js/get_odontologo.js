@@ -3,7 +3,7 @@ window.addEventListener('load', function () {
   (function () {
     //con fetch invocamos a la API de estudiantes con el método GET
     //nos devolverá un JSON con una colección de estudiantes
-    const url = '/odontologo/';
+    const url = '/odontologo/all';
     const settings = {
       method: 'GET',
       headers: {

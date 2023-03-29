@@ -1,6 +1,7 @@
 package com.example.clinicaOdontologica.controller;
 import com.example.clinicaOdontologica.dto.OdontologoDTO;
 import com.example.clinicaOdontologica.service.IOdontologoService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +17,7 @@ public class OdontologoController {
     private IOdontologoService odontologoService;
 
     @PostMapping
-    public ResponseEntity<?> crearOdontologo(@RequestBody OdontologoDTO odontologoDTO){
+    public ResponseEntity<?> crearOdontologo(@Valid @RequestBody OdontologoDTO odontologoDTO){
         odontologoService.crearOdontologo(odontologoDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }
@@ -26,19 +27,19 @@ public class OdontologoController {
         return odontologoService.buscarOdontologo(id);
     }
 
-    @PutMapping("/act")
+    @PutMapping("/update")
     public ResponseEntity<?> modificarOdontologo(@RequestBody OdontologoDTO odontologoDTO){
         odontologoService.modificarOdontologo(odontologoDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> eliminarOdontologo(@PathVariable Long id){
         odontologoService.eliminarOdontologo(id);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
-    @GetMapping("/")
+    @GetMapping("/all")
     public Collection<OdontologoDTO> buscarTodosOdontologos(){
         return odontologoService.buscarTodos();
     }
