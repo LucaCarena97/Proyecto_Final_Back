@@ -1,12 +1,9 @@
 package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.DomicilioDTO;
-import com.example.clinicaOdontologica.entity.Domicilio;
-import com.example.clinicaOdontologica.entity.Paciente;
 import com.example.clinicaOdontologica.service.IDomicilioService;
 import org.apache.log4j.Logger;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -16,6 +13,7 @@ import java.util.Set;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class DomicilioServiceImplTest {
 
     private static final Logger logger = Logger.getLogger(DomicilioServiceImplTest.class);
@@ -23,70 +21,50 @@ class DomicilioServiceImplTest {
     @Autowired
     private IDomicilioService domicilioService;
 
+
     @Test
-    @BeforeEach
-    public void crearDomicilio() {
+    @Order(1)
+    public void crearDomicilioTest() {
 
         logger.info("GUARDANDO DOMICILIO");
 
         DomicilioDTO domicilioDTO = new DomicilioDTO();
-        domicilioDTO.setCalle("Mitre");
+        domicilioDTO.setCalle("San Martin");
         domicilioDTO.setNumero(15);
-        domicilioDTO.setLocalidad("Cordoba");
+        domicilioDTO.setLocalidad("Villa Maria");
         domicilioDTO.setProvincia("Cordoba");
+
+        DomicilioDTO domicilioDTO1 = new DomicilioDTO();
+        domicilioDTO1.setCalle("Mitre");
+        domicilioDTO1.setNumero(20);
+        domicilioDTO1.setLocalidad("San Francisco");
+        domicilioDTO1.setProvincia("Cordoba");
 
         domicilioService.crearDomicilio(domicilioDTO);
         logger.debug("Creando domicilio: " + domicilioDTO);
+        domicilioService.crearDomicilio(domicilioDTO1);
+        logger.debug("Creando domicilio: " + domicilioDTO1);
 
-        //assertTrue(domicilioDTO != null);
-        //assertNotNull(domicilioDTO);
-        //assertEquals(domicilioDTO.getNumero(), 23);
-        //assertEquals(domicilioDTO.getLocalidad(), "Cordoba");
+        assertTrue(domicilioDTO != null);
+        assertNotNull(domicilioDTO);
+        assertNotNull(domicilioDTO1);
+        assertEquals(domicilioDTO.getNumero(), 15);
+        assertEquals(domicilioDTO.getLocalidad(), "Villa Maria");
+        assertEquals(domicilioDTO1.getNumero(), 20);
+        assertEquals(domicilioDTO1.getLocalidad(), "San Francisco");
     }
 
     @Test
-    public void actualizarDomicilio(){
-
-        //logger.info("ACTUALIZANDO DOMICILIO");
-
-        //DomicilioDTO domicilioDTO1 = domicilioService.buscarDomicilio(22L);
-        //domicilioService.modificarDomicilio(new DomicilioDTO(22L, "San Martin", 55, "San Francisco", "Cordoba", new PacienteDTO()));
-        //logger.debug("Actualizacion completa:" + domicilioDTO1);
-
-        //assertEquals(domicilioDTO1.getLocalidad(), "San Francisco");
-        //assertEquals(domicilioDTO1.getNumero(), 55);
-    }
-
-    @Test
-    public void buscar() {
-
-        logger.info("BUSCANDO DOMICILIO");
-
-        domicilioService.buscarDomicilio(1L);
-
-        logger.debug("Buscando domicilio con id: " + 1L);
-
-    }
-
-    @Test
+    @Order(2)
     public void buscarTodos(){
 
         logger.debug("BUSCANDO TODOS LOS DOMICILIOS");
+
         Set<DomicilioDTO> domiciliosDTO = domicilioService.buscarTodos();
+
         logger.debug("Domicilios: " + domiciliosDTO);
         assertTrue(domiciliosDTO.size() > 0);
 
     }
 
-    @Test
-    public void eliminar() {
-
-        //logger.info("ELIMINANDO DOMICILIO");
-
-        //domicilioService.eliminarDomicilio(16L);
-        //assertEquals(domicilioService.buscarDomicilio(16L), null);
-
-        //logger.debug("Eliminando domicilio con id: " + 16L);
-
-    }
 }

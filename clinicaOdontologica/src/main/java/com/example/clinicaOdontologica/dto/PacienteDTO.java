@@ -12,6 +12,7 @@ import java.util.Set;
 
 @Getter
 @Setter
+@ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class PacienteDTO {
 

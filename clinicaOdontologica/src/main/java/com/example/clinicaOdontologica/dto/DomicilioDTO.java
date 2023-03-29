@@ -8,6 +8,7 @@ import lombok.ToString;
 
 @Getter
 @Setter
+@ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class DomicilioDTO {
 

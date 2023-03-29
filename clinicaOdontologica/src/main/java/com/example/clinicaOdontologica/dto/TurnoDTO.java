@@ -11,12 +11,11 @@ import java.util.Date;
 
 @Getter
 @Setter
+@ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class TurnoDTO {
 
-    //private Long id;
-    private Date fechaTurno;
-    //private Paciente paciente;
-    //private Odontologo odontologo;
+     private Date fechaTurno;
+
 
 }

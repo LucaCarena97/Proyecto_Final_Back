@@ -60,7 +60,7 @@ public class TurnoServiceImpl implements ITurnoService {
 
     @Override
     public void modificarTurno(TurnoDTO turnoDTO) {
-        crearTurno(turnoDTO);
+        saveTurno(turnoDTO);
     }
 
     @Override

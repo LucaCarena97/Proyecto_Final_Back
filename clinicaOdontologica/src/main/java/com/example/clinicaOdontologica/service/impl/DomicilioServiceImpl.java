@@ -27,13 +27,6 @@ public class DomicilioServiceImpl implements IDomicilioService {
         domicilioRepository.save(domicilio);
     }
 
-    //public DomicilioServiceImpl() {
-    //}
-
-    //public DomicilioServiceImpl(com.example.clinicaOdontologica.repository.IDomicilioRepository IDomicilioRepository) {
-    //    this.domicilioRepository = IDomicilioRepository;
-    //}
-
     @Override
     public void crearDomicilio(DomicilioDTO domicilioDTO) {
         saveDomicilio(domicilioDTO);
@@ -63,7 +56,7 @@ public class DomicilioServiceImpl implements IDomicilioService {
 
     @Override
     public void modificarDomicilio(DomicilioDTO domicilioDTO) {
-        crearDomicilio(domicilioDTO);
+        saveDomicilio(domicilioDTO);
     }
 
     @Override

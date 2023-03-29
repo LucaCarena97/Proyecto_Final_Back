@@ -27,7 +27,7 @@ public class TurnoController {
         return turnoService.buscarTurno(id);
     }
 
-    @PutMapping("/act")
+    @PutMapping
     public ResponseEntity<?> modificarTurno(@RequestBody TurnoDTO turnoDTO){
         turnoService.modificarTurno(turnoDTO);
         return ResponseEntity.ok(HttpStatus.OK);
@@ -39,7 +39,7 @@ public class TurnoController {
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
-    @GetMapping("/")
+    @GetMapping
     public Collection<TurnoDTO> buscarTodosTurnos(){
         return  turnoService.buscarTodos();
     }

@@ -17,3 +17,356 @@ INFO    2023-03-28 21:03:18,301 [main] com.example.clinicaOdontologica.service.i
 DEBUG   2023-03-28 21:03:18,303 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@7a0df38e
 INFO    2023-03-28 21:03:18,312 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
 DEBUG   2023-03-28 21:03:18,314 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@5ac35b17
+INFO    2023-03-29 09:32:02,926 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:32:03,047 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@2c6553c6
+INFO    2023-03-29 09:32:03,069 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:32:03,071 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@77feca04
+INFO    2023-03-29 09:32:03,077 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:32:03,079 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@6a7b4ff5
+INFO    2023-03-29 09:32:03,084 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:32:03,086 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@4ed492df
+INFO    2023-03-29 09:32:03,090 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:32:03,092 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@6ddc9001
+INFO    2023-03-29 09:32:03,093 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:32:03,094 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@6f51d1cc
+INFO    2023-03-29 09:34:32,728 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:34:32,857 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@35ab83a7
+INFO    2023-03-29 09:34:42,296 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:34:42,442 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@3aac31b7
+INFO    2023-03-29 09:35:14,867 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:35:15,039 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@65c66fc4
+INFO    2023-03-29 09:37:10,772 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:37:10,911 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@7af17d31
+INFO    2023-03-29 09:41:19,842 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 09:41:19,979 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:41:20,039 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@3ad80206
+INFO    2023-03-29 09:42:59,375 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 09:42:59,539 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@3070f59f
+INFO    2023-03-29 09:43:42,801 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 09:43:42,972 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@7a285418
+INFO    2023-03-29 09:44:45,189 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 09:44:45,368 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@44bb6856
+INFO    2023-03-29 09:50:05,516 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 09:50:05,583 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 65
+INFO    2023-03-29 09:50:05,614 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 09:50:05,693 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:50:05,765 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@b21cbbf
+INFO    2023-03-29 09:51:16,149 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 09:51:16,329 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@59f5a376
+INFO    2023-03-29 09:55:40,905 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 09:55:41,031 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 65
+INFO    2023-03-29 09:55:41,056 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 09:55:41,070 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:55:41,130 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@14cc1f5c
+INFO    2023-03-29 09:56:49,002 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 09:56:49,139 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 65
+INFO    2023-03-29 09:56:49,167 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 09:56:49,216 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@58ec3e8b
+INFO    2023-03-29 09:56:49,232 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:56:49,234 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@63024843
+INFO    2023-03-29 09:58:26,636 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 09:58:26,771 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 65
+INFO    2023-03-29 09:58:26,809 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 09:58:26,868 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@58ec3e8b
+INFO    2023-03-29 09:58:26,890 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:58:26,893 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@63024843
+INFO    2023-03-29 09:59:17,837 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 09:59:17,904 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 65
+INFO    2023-03-29 09:59:17,932 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 09:59:18,018 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:59:18,080 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@19a799cb
+INFO    2023-03-29 09:59:47,848 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 09:59:47,912 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 65
+INFO    2023-03-29 09:59:47,945 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 09:59:48,036 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 09:59:48,101 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@24caa80
+INFO    2023-03-29 10:01:37,882 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 10:01:37,946 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 65
+INFO    2023-03-29 10:01:37,974 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 10:01:38,057 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:01:38,115 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@19a799cb
+INFO    2023-03-29 10:02:22,139 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:02:22,272 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@ce5a2ea
+INFO    2023-03-29 10:02:22,279 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 10:02:22,309 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 65
+INFO    2023-03-29 10:02:22,323 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:02:22,326 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@51158fb1
+INFO    2023-03-29 10:02:22,334 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:02:22,336 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@2226fd2b
+INFO    2023-03-29 10:02:22,342 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:02:22,344 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@7b5e5fa
+INFO    2023-03-29 10:02:22,345 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 10:02:22,373 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:02:22,377 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@757ad227
+INFO    2023-03-29 10:02:22,379 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:02:22,383 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@4807b2b7
+INFO    2023-03-29 10:07:20,395 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,520 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@6d71f296
+INFO    2023-03-29 10:07:20,527 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,571 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 81
+INFO    2023-03-29 10:07:20,574 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,578 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@16a78700
+INFO    2023-03-29 10:07:20,600 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,602 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@253379ec
+INFO    2023-03-29 10:07:20,602 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,607 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@60c33609
+INFO    2023-03-29 10:07:20,618 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,621 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@a6d4547
+INFO    2023-03-29 10:07:20,622 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,629 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@59e67a18
+INFO    2023-03-29 10:07:20,638 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,643 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@66297b63
+INFO    2023-03-29 10:07:20,643 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,648 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@120661d2
+INFO    2023-03-29 10:07:20,650 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,653 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@535adf36
+INFO    2023-03-29 10:07:20,665 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,668 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@79f82fc4
+INFO    2023-03-29 10:07:20,668 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,671 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@4fa3bebe
+INFO    2023-03-29 10:07:20,672 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 10:07:20,677 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@5fdcc63f
+INFO    2023-03-29 10:08:28,935 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 10:08:29,075 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 81
+INFO    2023-03-29 10:08:29,101 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 10:08:29,160 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@44d36b56
+INFO    2023-03-29 10:08:29,178 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:08:29,180 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@3985175e
+INFO    2023-03-29 10:12:46,628 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 10:12:46,717 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 81
+INFO    2023-03-29 10:12:46,748 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 10:12:46,828 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:12:46,922 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@16a78700
+INFO    2023-03-29 10:15:02,034 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:15:02,179 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@24ea71d
+INFO    2023-03-29 10:15:02,187 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 10:15:02,226 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 81
+INFO    2023-03-29 10:15:02,242 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:15:02,246 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@7c0ecdbf
+INFO    2023-03-29 10:15:02,251 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:15:02,253 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@578ac0be
+INFO    2023-03-29 10:15:02,258 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:15:02,260 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@44d36b56
+INFO    2023-03-29 10:15:02,260 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 10:15:02,280 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:15:02,283 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@4b718c45
+INFO    2023-03-29 10:15:02,283 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:15:02,286 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@71eead09
+INFO    2023-03-29 10:17:39,072 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:17:39,192 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@648bfebe
+INFO    2023-03-29 10:17:39,201 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 10:17:39,234 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 81
+INFO    2023-03-29 10:17:39,250 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:17:39,253 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@578ac0be
+INFO    2023-03-29 10:17:39,259 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:17:39,262 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@44d36b56
+INFO    2023-03-29 10:17:39,268 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:17:39,271 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@25502b1c
+INFO    2023-03-29 10:17:39,272 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 10:20:12,363 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 10:20:12,427 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 81
+INFO    2023-03-29 10:20:12,466 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 10:20:12,542 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:20:12,598 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@4778c085
+INFO    2023-03-29 10:20:55,595 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 10:20:55,664 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 81
+INFO    2023-03-29 10:20:55,694 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 10:20:55,779 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:20:55,852 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@14cc1f5c
+INFO    2023-03-29 10:24:14,429 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 10:24:14,494 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 105
+DEBUG   2023-03-29 10:24:14,520 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-29 10:24:14,693 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: [com.example.clinicaOdontologica.dto.DomicilioDTO@4d5d945d]
+INFO    2023-03-29 10:24:14,704 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 10:24:14,758 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:com.example.clinicaOdontologica.dto.DomicilioDTO@167ccc3c
+INFO    2023-03-29 10:24:14,764 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:24:14,766 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: com.example.clinicaOdontologica.dto.DomicilioDTO@56afbace
+INFO    2023-03-29 10:26:21,024 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 10:26:21,087 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 105
+INFO    2023-03-29 10:26:21,104 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ELIMINANDO DOMICILIO
+DEBUG   2023-03-29 10:26:21,160 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Eliminando domicilio con id: 109
+DEBUG   2023-03-29 10:26:21,167 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-29 10:26:21,354 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: [DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba), DomicilioDTO(calle=Mitre, numero=16, localidad=San Francisco, provincia=Cordoba)]
+INFO    2023-03-29 10:26:21,360 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 10:26:21,385 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:DomicilioDTO(calle=Mitre, numero=16, localidad=San Francisco, provincia=Cordoba)
+INFO    2023-03-29 10:26:21,392 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:26:21,394 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+INFO    2023-03-29 10:27:37,887 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 10:27:37,946 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 105
+INFO    2023-03-29 10:27:37,962 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ELIMINANDO DOMICILIO
+DEBUG   2023-03-29 10:27:37,976 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Eliminando domicilio con id: 109
+DEBUG   2023-03-29 10:27:37,982 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-29 10:27:38,080 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: []
+INFO    2023-03-29 10:27:38,093 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 10:27:38,212 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:DomicilioDTO(calle=Mitre, numero=16, localidad=San Francisco, provincia=Cordoba)
+INFO    2023-03-29 10:27:38,216 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 10:27:38,219 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+ERROR   2023-03-29 10:42:13,191 [http-nio-8080-exec-3] com.example.clinicaOdontologica.GlobalExeptionHandler  - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "undefined"
+ERROR   2023-03-29 10:42:16,877 [http-nio-8080-exec-2] com.example.clinicaOdontologica.GlobalExeptionHandler  - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "undefined"
+ERROR   2023-03-29 10:42:23,184 [http-nio-8080-exec-4] com.example.clinicaOdontologica.GlobalExeptionHandler  - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "undefined"
+INFO    2023-03-29 11:00:24,448 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 11:00:24,513 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 105
+INFO    2023-03-29 11:00:24,531 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ELIMINANDO DOMICILIO
+DEBUG   2023-03-29 11:00:24,546 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Eliminando domicilio con id: 109
+DEBUG   2023-03-29 11:00:24,552 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-29 11:00:24,598 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: []
+INFO    2023-03-29 11:00:24,614 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 11:00:24,718 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:DomicilioDTO(calle=null, numero=16, localidad=San Francisco, provincia=Cordoba)
+INFO    2023-03-29 11:00:24,724 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 11:00:24,729 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+INFO    2023-03-29 11:01:45,491 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 11:01:45,565 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 105
+INFO    2023-03-29 11:01:45,607 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ELIMINANDO DOMICILIO
+DEBUG   2023-03-29 11:01:45,624 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Eliminando domicilio con id: 109
+DEBUG   2023-03-29 11:01:45,631 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-29 11:01:45,684 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: []
+INFO    2023-03-29 11:01:45,698 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 11:01:45,818 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:DomicilioDTO(calle=null, numero=16, localidad=San Francisco, provincia=Cordoba)
+INFO    2023-03-29 11:01:45,825 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 11:01:45,831 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+INFO    2023-03-29 11:01:56,045 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 11:01:56,109 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 105
+INFO    2023-03-29 11:01:56,132 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ELIMINANDO DOMICILIO
+DEBUG   2023-03-29 11:01:56,143 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Eliminando domicilio con id: 109
+DEBUG   2023-03-29 11:01:56,149 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-29 11:01:56,286 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: [DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba), DomicilioDTO(calle=null, numero=16, localidad=San Francisco, provincia=Cordoba)]
+INFO    2023-03-29 11:01:56,293 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 11:01:56,340 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:DomicilioDTO(calle=null, numero=16, localidad=San Francisco, provincia=Cordoba)
+INFO    2023-03-29 11:01:56,347 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 11:01:56,349 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+INFO    2023-03-29 11:03:41,666 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 11:03:41,733 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 105
+INFO    2023-03-29 11:03:41,736 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 11:03:41,738 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 105
+INFO    2023-03-29 11:03:41,761 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ELIMINANDO DOMICILIO
+DEBUG   2023-03-29 11:03:41,773 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Eliminando domicilio con id: 109
+INFO    2023-03-29 11:03:41,774 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 11:03:41,775 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 105
+DEBUG   2023-03-29 11:03:41,780 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-29 11:03:41,896 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: [DomicilioDTO(calle=null, numero=16, localidad=San Francisco, provincia=Cordoba), DomicilioDTO(calle=null, numero=16, localidad=San Francisco, provincia=Cordoba), DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba), DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)]
+INFO    2023-03-29 11:03:41,900 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 11:03:41,902 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 105
+INFO    2023-03-29 11:03:41,908 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+DEBUG   2023-03-29 11:03:41,956 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Actualizacion completa:DomicilioDTO(calle=null, numero=16, localidad=San Francisco, provincia=Cordoba)
+INFO    2023-03-29 11:03:41,957 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 11:03:41,959 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 105
+INFO    2023-03-29 11:03:41,964 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 11:03:41,966 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+INFO    2023-03-29 11:03:41,967 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO DOMICILIO
+DEBUG   2023-03-29 11:03:41,968 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando domicilio con id: 105
+DEBUG   2023-03-29 11:09:21,028 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-29 11:09:21,124 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: []
+INFO    2023-03-29 11:09:21,156 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 11:09:21,273 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-03-29 11:09:21,277 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-03-29 11:10:26,722 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-29 11:10:26,832 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: []
+INFO    2023-03-29 11:10:26,861 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 11:10:27,004 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-03-29 11:10:27,008 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+INFO    2023-03-29 11:11:29,025 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 11:11:29,178 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-03-29 11:11:29,181 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-03-29 11:11:29,194 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-29 11:11:29,262 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: [DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba), DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)]
+INFO    2023-03-29 11:11:29,281 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 11:11:29,283 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-03-29 11:11:29,286 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+INFO    2023-03-29 11:11:29,286 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 11:11:29,288 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-03-29 11:11:29,290 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+INFO    2023-03-29 11:15:28,231 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-29 11:15:28,380 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-03-29 11:15:28,383 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-03-29 11:15:28,406 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-29 11:15:28,489 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: [DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba), DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)]
+INFO    2023-03-29 11:23:19,643 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - CREANDO ODONTOLOGO
+DEBUG   2023-03-29 11:23:19,829 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando odontologoOdontologoDTO(id=5, nombre=Ramiro, apellido=Perez, matricula=223344)
+INFO    2023-03-29 11:23:19,853 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO ODONTOLOGO
+DEBUG   2023-03-29 11:23:19,863 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Buscando odontologo con id: 5
+INFO    2023-03-29 11:32:58,703 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - CREANDO PACIENTE
+DEBUG   2023-03-29 11:32:58,851 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando pacientePacienteDTO(nombre=Juan, apellido=Gonzalez, dni=66773322, fechaDeIngreso=Wed Apr 05 00:00:00 ART 3922)
+INFO    2023-03-29 11:32:58,878 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ELIMINANDO PACIENTE
+DEBUG   2023-03-29 11:32:58,934 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Eliminando paciente con id: 1
+INFO    2023-03-29 11:34:04,385 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - CREANDO PACIENTE
+DEBUG   2023-03-29 11:34:04,535 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando pacientePacienteDTO(nombre=Juan, apellido=Gonzalez, dni=66773322, fechaDeIngreso=Wed Apr 05 00:00:00 ART 3922)
+INFO    2023-03-29 11:34:04,553 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ELIMINANDO PACIENTE
+DEBUG   2023-03-29 11:34:04,613 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Eliminando paciente con id: 1
+INFO    2023-03-29 11:40:30,354 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 11:40:30,490 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando domicilio: TurnoDTO(fechaTurno=Mon Dec 25 00:00:00 ART 3922)
+INFO    2023-03-29 11:40:30,515 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO DOMICILIO
+INFO    2023-03-29 11:47:32,725 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 11:47:32,863 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(id=null, fechaTurno=Mon Dec 25 00:00:00 ART 3922)
+INFO    2023-03-29 11:47:32,863 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 11:47:32,865 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(id=null, fechaTurno=Sat Jan 05 00:00:00 ART 3924)
+INFO    2023-03-29 11:47:32,865 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+INFO    2023-03-29 11:48:44,082 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 11:48:44,260 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(id=null, fechaTurno=Mon Dec 25 00:00:00 ART 3922)
+INFO    2023-03-29 11:48:44,260 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 11:48:44,263 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(id=null, fechaTurno=Sat Jan 05 00:00:00 ART 3924)
+INFO    2023-03-29 11:48:44,263 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+INFO    2023-03-29 11:49:09,549 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 11:49:09,692 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(id=null, fechaTurno=Mon Dec 25 00:00:00 ART 3922)
+INFO    2023-03-29 11:49:09,692 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 11:49:09,696 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(id=null, fechaTurno=Sat Jan 05 00:00:00 ART 3924)
+INFO    2023-03-29 11:49:09,696 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+INFO    2023-03-29 11:49:57,816 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 11:49:57,972 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(fechaTurno=Mon Dec 25 00:00:00 ART 3922)
+INFO    2023-03-29 11:49:57,972 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 11:49:57,974 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(fechaTurno=Sat Jan 05 00:00:00 ART 3924)
+INFO    2023-03-29 11:49:57,974 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-03-29 11:49:58,019 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Turno encontrado: 4
+INFO    2023-03-29 11:51:18,267 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 11:51:18,418 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(fechaTurno=Mon Dec 25 00:00:00 ART 3922)
+INFO    2023-03-29 11:51:18,418 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 11:51:18,420 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(fechaTurno=Sat Jan 05 00:00:00 ART 3924)
+INFO    2023-03-29 11:51:18,420 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-03-29 11:51:18,457 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Turno encontrado: 4
+INFO    2023-03-29 11:54:28,187 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 11:54:28,332 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(fechaTurno=3922-12-25)
+INFO    2023-03-29 11:54:28,332 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 11:54:28,334 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(fechaTurno=3924-01-05)
+INFO    2023-03-29 11:54:28,334 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-03-29 11:54:28,369 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Turno encontrado: 4
+INFO    2023-03-29 11:56:21,985 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 11:56:22,129 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(fechaTurno=Mon Dec 25 00:00:00 ART 3922)
+INFO    2023-03-29 11:56:22,129 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 11:56:22,132 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(fechaTurno=Sat Jan 05 00:00:00 ART 3924)
+INFO    2023-03-29 11:56:22,132 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-03-29 11:56:22,173 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Turno encontrado: TurnoDTO(fechaTurno=Sat Jan 05 00:00:00 ART 3924)
+INFO    2023-03-29 11:58:38,861 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 11:58:39,012 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(fechaTurno=Thu May 25 00:00:00 ART 3922)
+INFO    2023-03-29 11:58:39,012 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 11:58:39,015 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(fechaTurno=Tue Jun 05 00:00:00 ART 3923)
+INFO    2023-03-29 11:58:39,015 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-03-29 11:58:39,061 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Turno encontrado: TurnoDTO(fechaTurno=Thu May 25 00:00:00 ART 3922)
+INFO    2023-03-29 11:59:39,106 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 11:59:39,250 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(fechaTurno=Thu May 25 00:00:00 ART 1922)
+INFO    2023-03-29 11:59:39,250 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 11:59:39,253 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(fechaTurno=Tue Jun 05 00:00:00 ART 1923)
+INFO    2023-03-29 11:59:39,253 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-03-29 11:59:39,299 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Turno encontrado: TurnoDTO(fechaTurno=Thu May 25 00:00:00 ART 3922)
+INFO    2023-03-29 12:01:52,790 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 12:01:52,936 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(fechaTurno=Wed May 25 00:00:00 ART 2022)
+INFO    2023-03-29 12:01:52,936 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 12:01:52,940 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(fechaTurno=Mon Jun 05 00:00:00 ART 2023)
+INFO    2023-03-29 12:01:52,940 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-03-29 12:01:53,006 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Turno encontrado: TurnoDTO(fechaTurno=Thu May 25 00:00:00 ART 3922)
+INFO    2023-03-29 12:03:33,082 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 12:03:33,230 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(fechaTurno=Wed May 25 00:00:00 ART 2022)
+INFO    2023-03-29 12:03:33,230 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 12:03:33,233 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(fechaTurno=Mon Jun 05 00:00:00 ART 2023)
+INFO    2023-03-29 12:03:33,233 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-03-29 12:03:33,279 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Turno encontrado: TurnoDTO(fechaTurno=Mon Jun 05 00:00:00 ART 2023)
+INFO    2023-03-29 12:05:19,720 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 12:05:19,869 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(fechaTurno=Wed May 25 00:00:00 ART 2022)
+INFO    2023-03-29 12:05:19,869 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 12:05:19,872 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(fechaTurno=Sun Jun 11 00:00:00 ART 2023)
+INFO    2023-03-29 12:05:19,876 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-03-29 12:05:19,916 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Turno encontrado: 25TurnoDTO(fechaTurno=Sun Jun 11 00:00:00 ART 2023)
+INFO    2023-03-29 12:06:55,307 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-29 12:06:55,463 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Creando turno: TurnoDTO(fechaTurno=Wed May 25 00:00:00 ART 2022)
+INFO    2023-03-29 12:06:55,463 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-29 12:06:55,466 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Modificando turno: TurnoDTO(fechaTurno=Sun Jun 11 00:00:00 ART 2023)
+INFO    2023-03-29 12:06:55,473 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-03-29 12:06:55,522 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Turno encontrado: 27TurnoDTO(fechaTurno=Sun Jun 11 00:00:00 ART 2023)

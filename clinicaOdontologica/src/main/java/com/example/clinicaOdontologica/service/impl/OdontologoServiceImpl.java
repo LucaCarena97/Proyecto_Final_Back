@@ -27,13 +27,6 @@ public class OdontologoServiceImpl implements IOdontologoService {
         odontologoRepository.save(odontologo);
     }
 
-    //public OdontologoServiceImpl() {
-    //}
-
-    //public OdontologoServiceImpl(IOdontologoRepository odontologoRepository) {
-    //    this.odontologoRepository = odontologoRepository;
-    //}
-
     @Override
     public void crearOdontologo(OdontologoDTO odontologoDTO) {
         saveOdontologo(odontologoDTO);
@@ -61,7 +54,7 @@ public class OdontologoServiceImpl implements IOdontologoService {
 
     @Override
     public void modificarOdontologo(OdontologoDTO odontologoDTO) {
-        crearOdontologo(odontologoDTO);
+        saveOdontologo(odontologoDTO);
     }
 
     @Override
