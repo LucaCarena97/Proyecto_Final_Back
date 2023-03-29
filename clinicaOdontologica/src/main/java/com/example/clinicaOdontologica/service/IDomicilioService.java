@@ -5,9 +5,9 @@ import java.util.Set;
 
 public interface IDomicilioService {
 
-    void crearDomicilio(DomicilioDTO domicilioDTO);
-    DomicilioDTO buscarDomicilio(Long id);
-    Set<DomicilioDTO> buscarTodos();
-    void modificarDomicilio(DomicilioDTO domicilioDTO);
-    void eliminarDomicilio(Long id);
+    public void crearDomicilio(DomicilioDTO domicilioDTO);
+    public DomicilioDTO buscarDomicilio(Long id);
+    public Set<DomicilioDTO> buscarTodos();
+    public void modificarDomicilio(DomicilioDTO domicilioDTO);
+    public void eliminarDomicilio(Long id);
 }

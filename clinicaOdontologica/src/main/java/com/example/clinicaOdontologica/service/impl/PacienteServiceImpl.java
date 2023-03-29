@@ -1,8 +1,9 @@
-package com.example.clinicaOdontologica.service;
+package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.PacienteDTO;
 import com.example.clinicaOdontologica.entity.Paciente;
 import com.example.clinicaOdontologica.repository.IPacienteRepository;
+import com.example.clinicaOdontologica.service.IPacienteService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +14,7 @@ import java.util.Optional;
 import java.util.Set;
 
 @Service
-public class PacienteServiceImpl implements IPacienteService{
+public class PacienteServiceImpl implements IPacienteService {
 
     @Autowired
     private IPacienteRepository pacienteRepository;
@@ -21,22 +22,21 @@ public class PacienteServiceImpl implements IPacienteService{
     @Autowired
     ObjectMapper mapper;
 
-    //private void savePaciente(PacienteDTO pacienteDTO){
-    //    Paciente paciente = mapper.convertValue(pacienteDTO, Paciente.class);
-    //    pacienteRepository.save(paciente);
+    private void savePaciente(PacienteDTO pacienteDTO) {
+        Paciente paciente = mapper.convertValue(pacienteDTO, Paciente.class);
+        pacienteRepository.save(paciente);
+    }
+
+    //public PacienteServiceImpl() {
     //}
 
-    public PacienteServiceImpl() {
-    }
-
-    public PacienteServiceImpl(com.example.clinicaOdontologica.repository.IPacienteRepository IPacienteRepository) {
-        this.pacienteRepository = IPacienteRepository;
-    }
+    //public PacienteServiceImpl(com.example.clinicaOdontologica.repository.IPacienteRepository IPacienteRepository) {
+    //    this.pacienteRepository = IPacienteRepository;
+    //}
 
     @Override
     public void crearPaciente(PacienteDTO pacienteDTO) {
-        Paciente paciente = mapper.convertValue(pacienteDTO, Paciente.class);
-           pacienteRepository.save(paciente);
+        savePaciente(pacienteDTO);
     }
 
     @Override
@@ -44,7 +44,7 @@ public class PacienteServiceImpl implements IPacienteService{
         Optional<Paciente> paciente = pacienteRepository.findById(id);
         PacienteDTO pacienteDTO = null;
 
-        if (paciente.isPresent()){
+        if (paciente.isPresent()) {
             pacienteDTO = mapper.convertValue(paciente, PacienteDTO.class);
         }
         return pacienteDTO;
@@ -55,7 +55,7 @@ public class PacienteServiceImpl implements IPacienteService{
         List<Paciente> pacientes = pacienteRepository.findAll();
         Set<PacienteDTO> pacientesDTO = new HashSet<>();
 
-        for (Paciente paciente : pacientes){
+        for (Paciente paciente : pacientes) {
             pacientesDTO.add(mapper.convertValue(paciente, PacienteDTO.class));
         }
         return pacientesDTO;

@@ -11,5 +11,4 @@ public class ClinicaOdontologicaApplication {
 		PropertyConfigurator.configure("log4j.properties");
 		SpringApplication.run(ClinicaOdontologicaApplication.class, args);
 	}
-
 }

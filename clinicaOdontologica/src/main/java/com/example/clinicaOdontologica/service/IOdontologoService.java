@@ -5,9 +5,9 @@ import java.util.Set;
 
 public interface IOdontologoService {
 
-    void crearOdontologo(OdontologoDTO odontologoDTO);
-    OdontologoDTO buscarOdontologo(Long id);
-    Set<OdontologoDTO> buscarTodos();
-    void modificarOdontologo(OdontologoDTO odontologoDTO);
-    void eliminarOdontologo(Long id);
+    public void crearOdontologo(OdontologoDTO odontologoDTO);
+    public OdontologoDTO buscarOdontologo(Long id);
+    public Set<OdontologoDTO> buscarTodos();
+    public void modificarOdontologo(OdontologoDTO odontologoDTO);
+    public void eliminarOdontologo(Long id);
 }

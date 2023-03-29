@@ -1,8 +1,9 @@
-package com.example.clinicaOdontologica.service;
+package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.DomicilioDTO;
 import com.example.clinicaOdontologica.entity.Domicilio;
 import com.example.clinicaOdontologica.repository.IDomicilioRepository;
+import com.example.clinicaOdontologica.service.IDomicilioService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +14,7 @@ import java.util.Optional;
 import java.util.Set;
 
 @Service
-public class DomicilioServiceImpl implements IDomicilioService{
+public class DomicilioServiceImpl implements IDomicilioService {
 
     @Autowired
     private IDomicilioRepository domicilioRepository;
@@ -21,17 +22,17 @@ public class DomicilioServiceImpl implements IDomicilioService{
     @Autowired
     ObjectMapper mapper;
 
-    private void saveDomicilio(DomicilioDTO domicilioDTO){
+    private void saveDomicilio(DomicilioDTO domicilioDTO) {
         Domicilio domicilio = mapper.convertValue(domicilioDTO, Domicilio.class);
         domicilioRepository.save(domicilio);
     }
 
-    public DomicilioServiceImpl() {
-    }
+    //public DomicilioServiceImpl() {
+    //}
 
-    public DomicilioServiceImpl(com.example.clinicaOdontologica.repository.IDomicilioRepository IDomicilioRepository) {
-        this.domicilioRepository = IDomicilioRepository;
-    }
+    //public DomicilioServiceImpl(com.example.clinicaOdontologica.repository.IDomicilioRepository IDomicilioRepository) {
+    //    this.domicilioRepository = IDomicilioRepository;
+    //}
 
     @Override
     public void crearDomicilio(DomicilioDTO domicilioDTO) {
@@ -43,7 +44,7 @@ public class DomicilioServiceImpl implements IDomicilioService{
         Optional<Domicilio> domicilio = domicilioRepository.findById(id);
         DomicilioDTO domicilioDTO = null;
 
-        if (domicilio.isPresent()){
+        if (domicilio.isPresent()) {
             domicilioDTO = mapper.convertValue(domicilio, DomicilioDTO.class);
         }
         return domicilioDTO;
@@ -54,7 +55,7 @@ public class DomicilioServiceImpl implements IDomicilioService{
         List<Domicilio> domicilios = domicilioRepository.findAll();
         Set<DomicilioDTO> domiciliosDTO = new HashSet<>();
 
-        for (Domicilio domicilio : domicilios){
+        for (Domicilio domicilio : domicilios) {
             domiciliosDTO.add(mapper.convertValue(domicilio, DomicilioDTO.class));
         }
         return domiciliosDTO;

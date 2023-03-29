@@ -2,18 +2,18 @@ package com.example.clinicaOdontologica.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.Date;
-import java.util.HashSet;
 import java.util.Set;
 
+@Builder
 @Entity
 @Table
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @ToString
 public class Paciente {
 
@@ -28,25 +28,10 @@ public class Paciente {
 
     @OneToMany(mappedBy = "paciente", fetch = FetchType.LAZY)
     @JsonIgnore
-    private Set<Domicilio> domicilios = new HashSet<>();
+    private Set<Domicilio> domicilios;
 
-    public Paciente() {
-    }
+    @OneToMany(mappedBy = "paciente", fetch = FetchType.LAZY)
+    @JsonIgnore
+    private Set<Turno> turnos;
 
-    public Paciente(Long id, String nombre, String apellido, String dni, Date fechaDeIngreso, Set<Domicilio> domicilios) {
-        this.id = id;
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.dni = dni;
-        this.fechaDeIngreso = fechaDeIngreso;
-        this.domicilios = domicilios;
-    }
-
-    public Paciente(String nombre, String apellido, String dni, Date fechaDeIngreso, Set<Domicilio> domicilios) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.dni = dni;
-        this.fechaDeIngreso = fechaDeIngreso;
-        this.domicilios = domicilios;
-    }
 }

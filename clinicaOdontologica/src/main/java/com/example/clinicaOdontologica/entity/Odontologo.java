@@ -1,14 +1,18 @@
 package com.example.clinicaOdontologica.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
+import java.util.Set;
+
+@Builder
 @Entity
 @Table
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @ToString
 public class Odontologo {
 
@@ -19,21 +23,8 @@ public class Odontologo {
     private String nombre;
     private String apellido;
     private int matricula;
-
-    public Odontologo() {
-    }
-
-    public Odontologo(Long id, String nombre, String apellido, int matricula) {
-        this.id = id;
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.matricula = matricula;
-    }
-
-    public Odontologo(String nombre, String apellido, int matricula) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.matricula = matricula;
-    }
+    @OneToMany(mappedBy = "odontologo", fetch = FetchType.LAZY)
+    @JsonIgnore
+    private Set<Turno> turnos;
 
 }

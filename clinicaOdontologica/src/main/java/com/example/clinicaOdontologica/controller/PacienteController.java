@@ -1,5 +1,4 @@
 package com.example.clinicaOdontologica.controller;
-
 import com.example.clinicaOdontologica.dto.PacienteDTO;
 import com.example.clinicaOdontologica.service.IPacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
