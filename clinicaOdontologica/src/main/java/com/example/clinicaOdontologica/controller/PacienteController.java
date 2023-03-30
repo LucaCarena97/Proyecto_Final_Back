@@ -26,19 +26,19 @@ public class PacienteController {
         return pacienteService.buscarPaciente(id);
     }
 
-    @PutMapping
+    @PutMapping("/update")
     public ResponseEntity<?> modificarPaciente(@RequestBody PacienteDTO pacienteDTO){
         pacienteService.modificarPaciente(pacienteDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> eliminarPaciente(@PathVariable Long id){
         pacienteService.eliminarPaciente(id);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
-    @GetMapping
+    @GetMapping("/all")
     public Collection<PacienteDTO> buscarTodosPacientes(){
         return pacienteService.buscarTodos();
     }

@@ -27,19 +27,19 @@ public class TurnoController {
         return turnoService.buscarTurno(id);
     }
 
-    @PutMapping
+    @PutMapping("/update")
     public ResponseEntity<?> modificarTurno(@RequestBody TurnoDTO turnoDTO){
         turnoService.modificarTurno(turnoDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> eliminarTurno(@PathVariable Long id){
         turnoService.eliminarTurno(id);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
-    @GetMapping
+    @GetMapping("/all")
     public Collection<TurnoDTO> buscarTodosTurnos(){
         return  turnoService.buscarTodos();
     }

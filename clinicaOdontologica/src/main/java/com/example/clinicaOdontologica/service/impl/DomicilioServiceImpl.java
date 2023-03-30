@@ -56,6 +56,8 @@ public class DomicilioServiceImpl implements IDomicilioService {
         List<Domicilio> domicilios = domicilioRepository.findAll();
         Set<DomicilioDTO> domiciliosDTO = new HashSet<>();
 
+        logger.debug("Buscando domicilios...");
+
         for (Domicilio domicilio : domicilios) {
             domiciliosDTO.add(mapper.convertValue(domicilio, DomicilioDTO.class));
         }
@@ -64,7 +66,7 @@ public class DomicilioServiceImpl implements IDomicilioService {
 
     @Override
     public void modificarDomicilio(DomicilioDTO domicilioDTO) {
-        logger.debug("Modificando domicilio");
+        logger.debug("Modificando domicilio...");
         saveDomicilio(domicilioDTO);
 
     }

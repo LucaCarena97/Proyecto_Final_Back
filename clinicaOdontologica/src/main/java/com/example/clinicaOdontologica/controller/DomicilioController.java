@@ -26,19 +26,19 @@ public class DomicilioController {
         return domicilioService.buscarDomicilio(id);
     }
 
-    @PutMapping
+    @PutMapping("/update")
     public ResponseEntity<?> modificarDomicilio(@RequestBody DomicilioDTO domicilioDTO){
         domicilioService.modificarDomicilio(domicilioDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> eliminarDomicilio(@PathVariable Long id){
         domicilioService.eliminarDomicilio(id);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
-    @GetMapping
+    @GetMapping("/all")
     public Collection<DomicilioDTO> buscarTodosDomicilios(){
         return domicilioService.buscarTodos();
     }

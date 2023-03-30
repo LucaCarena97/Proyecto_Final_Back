@@ -55,6 +55,7 @@ public class OdontologoServiceImpl implements IOdontologoService {
     public Set<OdontologoDTO> buscarTodos() {
         List<Odontologo> odontologos = odontologoRepository.findAll();
         Set<OdontologoDTO> odontologosDTO = new HashSet<>();
+        logger.debug("Buscando odontologos...");
         for (Odontologo odontologo : odontologos) {
             odontologosDTO.add(mapper.convertValue(odontologo, OdontologoDTO.class));
         }
@@ -63,7 +64,7 @@ public class OdontologoServiceImpl implements IOdontologoService {
 
     @Override
     public void modificarOdontologo(OdontologoDTO odontologoDTO) {
-        logger.debug("Modificando odontologo");
+        logger.debug("Modificando odontologo...");
         saveOdontologo(odontologoDTO);
 
     }

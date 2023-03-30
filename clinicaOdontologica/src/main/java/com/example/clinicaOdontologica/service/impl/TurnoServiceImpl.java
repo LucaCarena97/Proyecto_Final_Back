@@ -55,7 +55,7 @@ public class TurnoServiceImpl implements ITurnoService {
     public Set<TurnoDTO> buscarTodos() {
         List<Turno> turnos = turnoRepository.findAll();
         Set<TurnoDTO> turnosDTO = new HashSet<>();
-
+        logger.debug("Buscando turnos...");
         for (Turno turno : turnos) {
             turnosDTO.add(mapper.convertValue(turno, TurnoDTO.class));
         }
@@ -65,7 +65,7 @@ public class TurnoServiceImpl implements ITurnoService {
 
     @Override
     public void modificarTurno(TurnoDTO turnoDTO) {
-        logger.debug("Modificando turno");
+        logger.debug("Modificando turno...");
         saveTurno(turnoDTO);
 
     }

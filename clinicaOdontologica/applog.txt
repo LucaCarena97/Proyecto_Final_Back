@@ -405,3 +405,38 @@ DEBUG   2023-03-29 20:16:40,095 [http-nio-8080-exec-7] com.example.clinicaOdonto
 DEBUG   2023-03-29 20:16:41,914 [http-nio-8080-exec-8] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Modificando odontologo
 DEBUG   2023-03-29 20:16:52,393 [http-nio-8080-exec-4] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Guardando domicilio: OdontologoDTO(id=null, nombre=Pedro, apellido=Pepe, matricula=334455)
 DEBUG   2023-03-29 20:17:01,858 [http-nio-8080-exec-10] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologo: 20
+INFO    2023-03-30 11:03:27,461 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-30 11:03:27,470 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Guardando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-03-30 11:03:27,618 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Guardando domicilio: DomicilioDTO(calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba)
+DEBUG   2023-03-30 11:03:27,641 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+INFO    2023-03-30 11:04:06,566 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImplTest  - CREANDO ODONTOLOGO
+DEBUG   2023-03-30 11:04:06,571 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Guardando domicilio: OdontologoDTO(id=null, nombre=Ramiro, apellido=Perez, matricula=223344)
+INFO    2023-03-30 11:04:06,716 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImplTest  - BUSCANDO ODONTOLOGO
+DEBUG   2023-03-30 11:04:06,716 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologo: 1
+DEBUG   2023-03-30 11:04:06,769 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImplTest  - Buscando odontologo con id: 1
+INFO    2023-03-30 11:04:22,642 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImplTest  - CREANDO PACIENTE
+DEBUG   2023-03-30 11:04:22,648 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Guardando paciente: PacienteDTO(nombre=Juan, apellido=Gonzalez, dni=66773322, fechaDeIngreso=Tue Apr 05 00:00:00 ART 2022)
+INFO    2023-03-30 11:04:22,803 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImplTest  - ELIMINANDO PACIENTE
+DEBUG   2023-03-30 11:04:22,803 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Eliminando paciente: 4
+DEBUG   2023-03-30 11:04:22,853 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando paciente: 4
+INFO    2023-03-30 11:04:37,006 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-03-30 11:04:37,008 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImpl  - Guardando turno: TurnoDTO(fechaTurno=Wed May 25 00:00:00 ART 2022)
+INFO    2023-03-30 11:04:37,146 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImplTest  - ACTUALIZANDO TURNO
+DEBUG   2023-03-30 11:04:37,146 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImpl  - Modificando turno
+DEBUG   2023-03-30 11:04:37,149 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImplTest  - Modificando turno: TurnoDTO(fechaTurno=Sun Jun 11 00:00:00 ART 2023)
+INFO    2023-03-30 11:04:37,152 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-03-30 11:04:37,153 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImpl  - Buscando turno: 27
+DEBUG   2023-03-30 11:04:37,185 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImplTest  - Turno encontrado: 27TurnoDTO(fechaTurno=Sun Jun 11 00:00:00 ART 2023)
+INFO    2023-03-30 11:04:51,171 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-30 11:04:51,175 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Guardando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-03-30 11:04:51,306 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Guardando domicilio: DomicilioDTO(calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba)
+DEBUG   2023-03-30 11:04:51,333 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-30 11:07:32,048 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-30 11:08:17,515 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-30 11:08:17,644 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - buscar
+INFO    2023-03-30 11:09:37,459 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-03-30 11:09:37,463 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Guardando domicilio: DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-03-30 11:09:37,582 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Guardando domicilio: DomicilioDTO(calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba)
+DEBUG   2023-03-30 11:09:37,624 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-03-30 11:09:37,685 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - buscar
+DEBUG   2023-03-30 11:09:37,687 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: [DomicilioDTO(calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba), DomicilioDTO(calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba)]

@@ -55,7 +55,7 @@ public class PacienteServiceImpl implements IPacienteService {
     public Set<PacienteDTO> buscarTodos() {
         List<Paciente> pacientes = pacienteRepository.findAll();
         Set<PacienteDTO> pacientesDTO = new HashSet<>();
-
+        logger.debug("Buscando pacientes...");
         for (Paciente paciente : pacientes) {
             pacientesDTO.add(mapper.convertValue(paciente, PacienteDTO.class));
         }
@@ -65,7 +65,7 @@ public class PacienteServiceImpl implements IPacienteService {
 
     @Override
     public void modificarPaciente(PacienteDTO pacienteDTO) {
-        logger.debug("Modificando paciente");
+        logger.debug("Modificando paciente...");
         crearPaciente(pacienteDTO);
 
     }
