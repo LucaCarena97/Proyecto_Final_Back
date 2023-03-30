@@ -13,6 +13,7 @@ import java.util.Date;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class TurnoDTO {
 
+     private Long id;
      private Date fechaTurno;
 
 

@@ -15,11 +15,10 @@ import java.util.Set;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class PacienteDTO {
 
-    //private Long id;
+    private Long id;
     private String nombre;
     private String apellido;
     private String dni;
     private Date fechaDeIngreso;
-    //private DomicilioDTO domicilioDTO;
 
 }

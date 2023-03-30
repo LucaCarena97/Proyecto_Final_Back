@@ -11,11 +11,10 @@ import lombok.ToString;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class DomicilioDTO {
 
-    //private Long id;
+    private Long id;
     private String calle;
     private int numero;
     private String localidad;
     private String provincia;
-    //private PacienteDTO pacienteDTO;
 
 }
