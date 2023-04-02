@@ -15,12 +15,12 @@ window.addEventListener('load', function () {
 
         for (odontologo of data) {
 
-        //Mostrando los datos por consola
+          //Mostrando los datos por consola
           console.log("nombre:" + odontologo.nombre);
 
           var table = document.querySelector("#odontologoTable");
           var odontologoRow = table.insertRow();
-          
+
           let tr_id = 'tr_' + odontologo.id;
           odontologoRow.id = tr_id;
 

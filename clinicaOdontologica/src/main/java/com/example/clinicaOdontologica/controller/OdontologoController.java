@@ -23,11 +23,13 @@ public class OdontologoController {
     }
 
     @GetMapping("/{id}")
+    //Se utiliza para enlazar una variable de la URL a un parámetro de método en el controlador
     public OdontologoDTO buscarOdontologo(@PathVariable Long id){
         return odontologoService.buscarOdontologo(id);
     }
 
     @PutMapping("/update")
+    //Se utiliza para obtener los datos de la solicitud HTTP en forma de objeto.
     public ResponseEntity<?> modificarOdontologo(@RequestBody OdontologoDTO odontologoDTO){
         odontologoService.modificarOdontologo(odontologoDTO);
         return ResponseEntity.ok(HttpStatus.OK);

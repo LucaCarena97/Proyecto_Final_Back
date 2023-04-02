@@ -1,6 +1,7 @@
 package com.example.clinicaOdontologica.controller;
 import com.example.clinicaOdontologica.dto.PacienteDTO;
 import com.example.clinicaOdontologica.service.IPacienteService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +17,7 @@ public class PacienteController {
     private IPacienteService pacienteService;
 
     @PostMapping
-    public ResponseEntity<?> crearPaciente(@RequestBody PacienteDTO pacienteDTO){
+    public ResponseEntity<?> crearPaciente(@Valid @RequestBody PacienteDTO pacienteDTO){
         pacienteService.crearPaciente(pacienteDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }

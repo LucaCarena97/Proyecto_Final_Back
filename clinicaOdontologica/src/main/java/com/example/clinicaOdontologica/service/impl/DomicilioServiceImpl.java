@@ -19,13 +19,18 @@ public class DomicilioServiceImpl implements IDomicilioService {
 
     private static final Logger logger = Logger.getLogger(DomicilioServiceImpl.class);
 
+    //Realiza la inyección de dependencias de forma automática. Instancia objetos que necesitan otros objetos.
     @Autowired
     private IDomicilioRepository domicilioRepository;
 
     @Autowired
+    //Se utiliza para inyectar una instancia de la clase ObjectMapper.
+    //Utilizar la instancia de ObjectMapper convierte objetos Java a JSON
     ObjectMapper mapper;
 
     private void saveDomicilio(DomicilioDTO domicilioDTO) {
+        //Se utiliza para convertir un objeto DTO a un objeto de
+        //tipo Domicilio utilizando la instancia de la clase ObjectMapper.
         Domicilio domicilio = mapper.convertValue(domicilioDTO, Domicilio.class);
         domicilioRepository.save(domicilio);
     }

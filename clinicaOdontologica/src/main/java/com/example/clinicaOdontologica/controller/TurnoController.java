@@ -2,6 +2,7 @@ package com.example.clinicaOdontologica.controller;
 import com.example.clinicaOdontologica.dto.TurnoDTO;
 import com.example.clinicaOdontologica.service.ITurnoService;
 import jakarta.persistence.Access;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +18,7 @@ public class TurnoController {
     private ITurnoService turnoService;
 
     @PostMapping
-    public ResponseEntity<?> crearTurno(@RequestBody TurnoDTO turnoDTO){
+    public ResponseEntity<?> crearTurno(@Valid  @RequestBody TurnoDTO turnoDTO){
         turnoService.crearTurno(turnoDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }

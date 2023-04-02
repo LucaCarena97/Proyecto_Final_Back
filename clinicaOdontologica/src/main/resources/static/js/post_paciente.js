@@ -1,16 +1,17 @@
 window.addEventListener('load', function () {
 
-    const formulario = document.querySelector('#nuevo_odontologo');
+    const formulario = document.querySelector('#nuevo_paciente');
 
     formulario.addEventListener('submit', function (event) {
 
         const formData = {
             nombre: document.querySelector('#nombre').value,
             apellido: document.querySelector('#apellido').value,
-            matricula: document.querySelector('#matricula').value,
+            dni: document.querySelector('#dni').value,
+            fecha: document.querySelector('#fecha').value,
         };
 
-        const url = '/odontologo';
+        const url = '/paciente';
         const settings = {
             method: 'POST',
             headers: {
@@ -29,7 +30,7 @@ window.addEventListener('load', function () {
 
                 let successAlert = '<div class="alert alert-success alert-dismissible">' +
                     '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-                    '<strong></strong> Odontologo agregado </div>';
+                    '<strong></strong> Paciente agregado </div>';
 
                 document.querySelector('#response').innerHTML = successAlert;
                 document.querySelector('#response').style.display = "block";
@@ -52,14 +53,15 @@ window.addEventListener('load', function () {
     function resetUploadForm() {
         document.querySelector('#nombre').value = "";
         document.querySelector('#apellido').value = "";
-        document.querySelector('#matricula').value = "";
+        document.querySelector('#dni').value = "";
+        document.querySelector('#fecha').value = "";
     }
 
     (function () {
         let pathname = window.location.pathname;
        if (pathname === "/") {
             document.querySelector(".nav .nav-item a:first").addClass("active");
-       } else if (pathname == "/listaOdontologo.html") {
+       } else if (pathname == "/listaPaciente.html") {
          document.querySelector(".nav .nav-item a:last").addClass("active");
        }
     })();
