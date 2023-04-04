@@ -10,7 +10,7 @@ window.addEventListener('load', function () {
             nombre: document.querySelector('#nombre').value,
             apellido: document.querySelector('#apellido').value,
             dni: document.querySelector('#dni').value,
-            fecha: document.querySelector('#fecha').value
+            fechaDeIngreso: document.querySelector('#fechaDeIngreso').value
         };
 
         const url = '/paciente/update';
@@ -42,7 +42,7 @@ function findBy(id) {
             document.querySelector('#nombre').value = paciente.nombre;
             document.querySelector('#apellido').value = paciente.apellido;
             document.querySelector('#dni').value = paciente.dni;
-            document.querySelector('#fecha').value = paciente.fecha;
+            document.querySelector('#fechaDeIngreso').value = paciente.fechaDeIngreso;
             document.querySelector('#div_paciente_put').style.display = "block";
         })
         

@@ -1,5 +1,7 @@
 package com.example.clinicaOdontologica.controller;
+
 import com.example.clinicaOdontologica.dto.TurnoDTO;
+import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.service.ITurnoService;
 import jakarta.persistence.Access;
 import jakarta.validation.Valid;
@@ -18,43 +20,32 @@ public class TurnoController {
     private ITurnoService turnoService;
 
     @PostMapping
-    public ResponseEntity<?> crearTurno(@Valid  @RequestBody TurnoDTO turnoDTO){
+    public ResponseEntity<?> crearTurno(@Valid @RequestBody TurnoDTO turnoDTO) {
         turnoService.crearTurno(turnoDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
     @GetMapping("/{id}")
-    public TurnoDTO buscarTurno(@PathVariable Long id){
+    public TurnoDTO buscarTurno(@PathVariable Long id) {
         return turnoService.buscarTurno(id);
     }
 
     @PutMapping("/update")
-    public ResponseEntity<?> modificarTurno(@RequestBody TurnoDTO turnoDTO){
+    public ResponseEntity<?> modificarTurno(@RequestBody TurnoDTO turnoDTO) throws ResourceNotFoundException {
         turnoService.modificarTurno(turnoDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<?> eliminarTurno(@PathVariable Long id){
+    public ResponseEntity<?> eliminarTurno(@PathVariable Long id) throws ResourceNotFoundException {
         turnoService.eliminarTurno(id);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
     @GetMapping("/all")
-    public Collection<TurnoDTO> buscarTodosTurnos(){
-        return  turnoService.buscarTodos();
+    public Collection<TurnoDTO> buscarTodosTurnos() {
+        return turnoService.buscarTodos();
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

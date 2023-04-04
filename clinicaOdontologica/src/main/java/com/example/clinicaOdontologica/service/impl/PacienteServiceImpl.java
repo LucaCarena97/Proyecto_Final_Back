@@ -2,6 +2,7 @@ package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.PacienteDTO;
 import com.example.clinicaOdontologica.entity.Paciente;
+import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.repository.IPacienteRepository;
 import com.example.clinicaOdontologica.service.IPacienteService;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -64,16 +65,22 @@ public class PacienteServiceImpl implements IPacienteService {
     }
 
     @Override
-    public void modificarPaciente(PacienteDTO pacienteDTO) {
-        logger.debug("Modificando paciente...");
-        crearPaciente(pacienteDTO);
-
+    public void modificarPaciente(PacienteDTO pacienteDTO) throws ResourceNotFoundException {
+        if (buscarPaciente(pacienteDTO.getId()) == null) {
+            throw new ResourceNotFoundException("");
+        } else {
+            logger.debug("Modificando paciente...");
+            savePaciente(pacienteDTO);
+        }
     }
 
     @Override
-    public void eliminarPaciente(Long id) {
-        logger.debug("Eliminando paciente: " + id);
-        pacienteRepository.deleteById(id);
-
+    public void eliminarPaciente(Long id) throws ResourceNotFoundException {
+        if (buscarPaciente(id) == null) {
+            throw new ResourceNotFoundException("");
+        } else {
+            logger.debug("Eliminando paciente: " + id);
+            pacienteRepository.deleteById(id);
+        }
     }
 }

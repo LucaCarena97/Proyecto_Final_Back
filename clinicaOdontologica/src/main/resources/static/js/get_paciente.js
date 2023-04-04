@@ -17,8 +17,8 @@ window.addEventListener('load', function () {
 
                     //Mostrando los datos por consola
                     console.log("nombre:" + paciente.nombre);
-                    console.log("nombre:" + paciente.fecha);
-                    console.log("nombre:" + paciente.fechaDeIngreso);
+                    console.log("fecha:" + paciente.fecha);
+                    console.log("fechaDeIngreso:" + paciente.fechaDeIngreso);
 
                     var table = document.querySelector("#pacienteTable");
                     var pacienteRow = table.insertRow();
@@ -42,7 +42,7 @@ window.addEventListener('load', function () {
                         '<td class=\"td_nombre\">' + paciente.nombre + '</td>' +
                         '<td class=\"td_apellido\">' + paciente.apellido + '</td>' +
                         '<td class=\"td_dni\">' + paciente.dni + '</td>' +
-                        '<td class=\"td_fecha\">' + paciente.fecha + '</td>' +
+                        '<td class=\"td_fechaDeIngreso\">' + paciente.fechaDeIngreso + '</td>' +
                         '<td>' + deleteButton + '</td>';
 
                 };

@@ -2,6 +2,7 @@ package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.TurnoDTO;
 import com.example.clinicaOdontologica.entity.Turno;
+import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.repository.ITurnoRepository;
 import com.example.clinicaOdontologica.service.ITurnoService;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -64,16 +65,22 @@ public class TurnoServiceImpl implements ITurnoService {
     }
 
     @Override
-    public void modificarTurno(TurnoDTO turnoDTO) {
-        logger.debug("Modificando turno...");
-        saveTurno(turnoDTO);
-
+    public void modificarTurno(TurnoDTO turnoDTO) throws ResourceNotFoundException {
+        if (buscarTurno(turnoDTO.getId()) == null) {
+            throw new ResourceNotFoundException("");
+        } else {
+            logger.debug("Modificando turno...");
+            saveTurno(turnoDTO);
+        }
     }
 
     @Override
-    public void eliminarTurno(Long id) {
-        logger.debug("Eliminando turno: " + id);
-        turnoRepository.deleteById(id);
-
+    public void eliminarTurno(Long id) throws ResourceNotFoundException {
+        if (buscarTurno(id) == null) {
+            throw new ResourceNotFoundException("");
+        } else {
+            logger.debug("Eliminando turno: " + id);
+            turnoRepository.deleteById(id);
+        }
     }
 }

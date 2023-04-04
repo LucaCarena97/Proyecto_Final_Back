@@ -8,7 +8,7 @@ window.addEventListener('load', function () {
             nombre: document.querySelector('#nombre').value,
             apellido: document.querySelector('#apellido').value,
             dni: document.querySelector('#dni').value,
-            fecha: document.querySelector('#fecha').value,
+            fechaDeIngreso: document.querySelector('#fechaDeIngreso').value,
         };
 
         const url = '/paciente';
@@ -54,15 +54,15 @@ window.addEventListener('load', function () {
         document.querySelector('#nombre').value = "";
         document.querySelector('#apellido').value = "";
         document.querySelector('#dni').value = "";
-        document.querySelector('#fecha').value = "";
+        document.querySelector('#fechaDeIngreso').value = "";
     }
 
     (function () {
         let pathname = window.location.pathname;
-       if (pathname === "/") {
+        if (pathname === "/") {
             document.querySelector(".nav .nav-item a:first").addClass("active");
-       } else if (pathname == "/listaPaciente.html") {
-         document.querySelector(".nav .nav-item a:last").addClass("active");
-       }
+        } else if (pathname == "/listaPaciente.html") {
+            document.querySelector(".nav .nav-item a:last").addClass("active");
+        }
     })();
 });

@@ -15,20 +15,19 @@ public class GlobalExeptionHandler {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<?> errores(Exception e, WebRequest req) {
         logger.error(e.getMessage());
-        return new ResponseEntity("FATAL ERROR " + e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+        return new ResponseEntity("ERROR " + e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<String> notFoundException(ResourceNotFoundException ex) {
         logger.error(ex.getMessage());
-        return new ResponseEntity<>("No se encontró el valor en la base de datos, " +
-                "por favor ingrese un valor diferente.", HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>("No se encontró el valor en la base de datos", HttpStatus.NOT_FOUND);
     }
 
     @ExceptionHandler(BadRequestException.class)
     public ResponseEntity<String> badRequestException(BadRequestException ex) {
         logger.error(ex.getMessage());
-        return new ResponseEntity<>("Existen campos vacíos. Por favor intente nuevamente.",
+        return new ResponseEntity<>("Existen campos vacíos",
                 HttpStatus.BAD_REQUEST);
     }
 

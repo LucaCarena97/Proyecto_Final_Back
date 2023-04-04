@@ -1,5 +1,7 @@
 package com.example.clinicaOdontologica.controller;
+
 import com.example.clinicaOdontologica.dto.PacienteDTO;
+import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.service.IPacienteService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,30 +19,30 @@ public class PacienteController {
     private IPacienteService pacienteService;
 
     @PostMapping
-    public ResponseEntity<?> crearPaciente(@Valid @RequestBody PacienteDTO pacienteDTO){
+    public ResponseEntity<?> crearPaciente(@Valid @RequestBody PacienteDTO pacienteDTO) {
         pacienteService.crearPaciente(pacienteDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
     @GetMapping("/{id}")
-    public PacienteDTO buscarPaciente(@PathVariable Long id){
+    public PacienteDTO buscarPaciente(@PathVariable Long id) {
         return pacienteService.buscarPaciente(id);
     }
 
     @PutMapping("/update")
-    public ResponseEntity<?> modificarPaciente(@RequestBody PacienteDTO pacienteDTO){
+    public ResponseEntity<?> modificarPaciente(@RequestBody PacienteDTO pacienteDTO) throws ResourceNotFoundException {
         pacienteService.modificarPaciente(pacienteDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<?> eliminarPaciente(@PathVariable Long id){
+    public ResponseEntity<?> eliminarPaciente(@PathVariable Long id) throws ResourceNotFoundException {
         pacienteService.eliminarPaciente(id);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
     @GetMapping("/all")
-    public Collection<PacienteDTO> buscarTodosPacientes(){
+    public Collection<PacienteDTO> buscarTodosPacientes() {
         return pacienteService.buscarTodos();
     }
 }

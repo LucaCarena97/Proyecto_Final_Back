@@ -2,11 +2,13 @@ package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.DomicilioDTO;
 import com.example.clinicaOdontologica.entity.Domicilio;
+import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.repository.IDomicilioRepository;
 import com.example.clinicaOdontologica.service.IDomicilioService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
@@ -70,16 +72,23 @@ public class DomicilioServiceImpl implements IDomicilioService {
     }
 
     @Override
-    public void modificarDomicilio(DomicilioDTO domicilioDTO) {
-        logger.debug("Modificando domicilio...");
-        saveDomicilio(domicilioDTO);
+    public void modificarDomicilio(DomicilioDTO domicilioDTO) throws ResourceNotFoundException {
+        if (buscarDomicilio(domicilioDTO.getId()) == null) {
+            throw new ResourceNotFoundException("");
+        } else {
+            logger.debug("Modificando domicilio...");
+            saveDomicilio(domicilioDTO);
+        }
 
     }
 
     @Override
-    public void eliminarDomicilio(Long id) {
-        logger.debug("Eliminando domicilio: " + id);
-        domicilioRepository.deleteById(id);
-
+    public void eliminarDomicilio(Long id) throws ResourceNotFoundException {
+        if (buscarDomicilio(id) == null) {
+            throw new ResourceNotFoundException("");
+        } else {
+            logger.debug("Eliminando domicilio: " + id);
+            domicilioRepository.deleteById(id);
+        }
     }
 }

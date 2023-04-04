@@ -2,6 +2,7 @@ package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.OdontologoDTO;
 import com.example.clinicaOdontologica.entity.Odontologo;
+import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.repository.IOdontologoRepository;
 import com.example.clinicaOdontologica.service.IOdontologoService;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -63,17 +64,23 @@ public class OdontologoServiceImpl implements IOdontologoService {
     }
 
     @Override
-    public void modificarOdontologo(OdontologoDTO odontologoDTO) {
-        logger.debug("Modificando odontologo...");
-        saveOdontologo(odontologoDTO);
-
+    public void modificarOdontologo(OdontologoDTO odontologoDTO) throws ResourceNotFoundException {
+        if (buscarOdontologo(odontologoDTO.getId()) == null) {
+            throw new ResourceNotFoundException("");
+        } else {
+            logger.debug("Modificando odontologo...");
+            saveOdontologo(odontologoDTO);
+        }
     }
 
     @Override
-    public void eliminarOdontologo(Long id) {
-        logger.debug("Eliminando odontologo: " + id);
-        odontologoRepository.deleteById(id);
-
+    public void eliminarOdontologo(Long id) throws ResourceNotFoundException {
+        if (buscarOdontologo(id) == null) {
+            throw new ResourceNotFoundException("");
+        } else {
+            logger.debug("Eliminando odontologo: " + id);
+            odontologoRepository.deleteById(id);
+        }
     }
 
 }
