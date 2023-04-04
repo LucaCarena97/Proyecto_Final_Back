@@ -12,16 +12,17 @@
     <script type="text/javascript" src="/js/get_odontologo.js"></script>
     <script type="text/javascript" src="/js/put_odontologo.js"></script>
     <script type="text/javascript" src="/js/delete_odontologo.js"></script>
+    <link rel="stylesheet" href="/css/lista.css">
 </head>
 
 <body>
     <div class="container">
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link" href="altaOdontologo.html">Agregar nuevo</a>
+                <a class="nav-link" href="altaOdontologo.html">Agregar nuevo odontologo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="listaOdontologo.html">Todas</a>
+                <a class="nav-link" href="listaOdontologo.html">Listado de odontologos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.html">Principal</a>
@@ -29,8 +30,8 @@
         </ul>
 
         <div id="div_student_table">
-            <h1>Odontologo</h1>
-            <div class="row col-md-6 table-responsive">
+            <h1>Planilla Odontologos</h1>
+            <div class="table-responsive">
                 <table id="odontologoTable" class="table table-striped">
                     <thead>
                         <tr>
@@ -45,9 +46,8 @@
                 </table>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6" style="display: none;
-											background-color:#e6fffa; padding:10px; border-radius:3px" id="div_odontologo_put">
+        <div class="form">
+            <div class="col-sm-6" style="display: none; padding:10px; border-radius:3px" id="div_odontologo_put">
                 <form id="form_odontologo">
                     <div class="form-group">
                         <label>Id:</label>

@@ -1,0 +1,103 @@
+body {
+    background-color: rgba(53, 212, 212, 0.795);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    animation-name: moveLeft;
+    animation-duration: 3s;
+    
+}
+
+@keyframes moveLeft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-0%);
+    }
+}
+
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+
+.titulo {
+    margin-top: 5%;
+    text-align: center;
+    animation-name: moveRight;
+    animation-duration: 3s;
+}
+
+@keyframes moveRight {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+
+
+.opcion {
+    margin: 3%;
+    text-align: center;
+}
+
+
+.opciones {
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+    box-shadow: 2px 4px 10px;
+    background-color: rgba(70, 248, 189, 0.411);
+    animation-name: moveUp;
+    animation-duration: 3s;
+}
+
+
+
+@keyframes moveUp {
+    from {
+        transform: translateY(150%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
+
+.odo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 5%;
+    text-decoration: none;
+}
+
+.pac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 5%;
+}
+
+.tur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 5%;
+}

@@ -1,0 +1,32 @@
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(53, 212, 212, 0.795);
+}
+
+a{
+    color: black;
+    font-weight: bold;
+}
+
+#div_student_table{
+    text-align: center;
+    padding: 5%;
+    background-color: rgba(57, 247, 247, 0.26);
+}
+
+.table-responsive{
+    margin-top: 5%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 225, 255, 0.39);
+}
+
+.form{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(53, 212, 212, 0.795);;
+}

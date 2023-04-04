@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Turno</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/get_turno.js"></script>
+    <script type="text/javascript" src="/js/put_turno.js"></script>
+    <script type="text/javascript" src="/js/delete_turno.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="altaTurno.html">Agregar nuevo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="listaTurno.html">Todas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Principal</a>
+            </li>
+        </ul>
+
+        <div id="div_student_table">
+            <h1>Turno</h1>
+            <div class="row col-md-6 table-responsive">
+                <table id="turnoTable" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Fecha</th>
+                            <th>Paciente</th>
+                            <th>Odontologo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="display: none;
+											background-color:#e6fffa; padding:10px; border-radius:3px" id="div_turno_put">
+                <form id="form_turno">
+                    <div class="form-group">
+                        <label>Id:</label>
+                        <input type="number" class="form-control" id="turno_id" readonly>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Fecha::</label>
+                        <input type="datetime-local" class="form-control" placeholder="fechaTurno" id="fechaTurno">
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">Modificar</button>
+                </form>
+                <div id="response" style="display:none; margin:10px">
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</body>
+
+</html>

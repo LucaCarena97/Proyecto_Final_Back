@@ -10,18 +10,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/post_paciente.js"></script>
-    
+    <link rel="stylesheet" href="/css/alta.css">
+
 </head>
 
 <body>
     <div class="container">
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Administrar Clinica</a>
-            </li>
-        </ul>
+        <div class="nav">
+
+            <a class="nav-link" href="index.html">Administracion Clinica</a>
+
+        </div>
         <div class="row">
-            <div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px">
+            <div class="col-sm-7" style="padding:10px; border-radius:3px">
                 <h3>Agregar Paciente</h3>
                 <form id="nuevo_paciente">
                     <div class="form-group">
@@ -35,14 +36,14 @@
                             name="apellido" required></input>
                     </div>
                     <div class="form-group">
-                        <label class="control-label" for="dni">Dni:</label>
-                        <input type="text" class="form-control" id="dni" placeholder="Ingrese el DNI"
-                            name="dni" required></input>
+                        <label class="control-label" for="dni">DNI:</label>
+                        <input type="text" class="form-control" id="dni" placeholder="Ingrese el DNI" name="dni"
+                            required></input>
                     </div>
                     <div class="form-group">
                         <label class="control-label" for="fechaDeIngreso">Fecha:</label>
-                        <input type="datetime-local" class="form-control" id="fechaDeIngreso" placeholder="Ingrese la fecha"
-                            name="fechaDeIngreso" required></input>
+                        <input type="datetime-local" class="form-control" id="fechaDeIngreso"
+                            placeholder="Ingrese la fecha" name="fechaDeIngreso" required></input>
                     </div>
                     <button type="submit" class="btn btn-danger" id="btn-add-new-paciente">Guardar</button>
                 </form>
