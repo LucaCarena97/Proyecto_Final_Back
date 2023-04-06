@@ -1,6 +1,7 @@
 package com.example.clinicaOdontologica.controller;
 
 import com.example.clinicaOdontologica.dto.OdontologoDTO;
+import com.example.clinicaOdontologica.exception.BadRequestException;
 import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.service.IOdontologoService;
 import jakarta.validation.Valid;
@@ -19,9 +20,9 @@ public class OdontologoController {
     private IOdontologoService odontologoService;
 
     @PostMapping
-    public ResponseEntity<?> crearOdontologo(@Valid @RequestBody OdontologoDTO odontologoDTO) {
+    public ResponseEntity<?> crearOdontologo(@Valid @RequestBody OdontologoDTO odontologoDTO) throws BadRequestException {
         odontologoService.crearOdontologo(odontologoDTO);
-        return ResponseEntity.ok(HttpStatus.OK);
+        return ResponseEntity.ok("Se guardo el odontologo correctamente");
     }
 
     @GetMapping("/{id}")

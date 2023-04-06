@@ -4,6 +4,8 @@ window.addEventListener('load', function () {
 
     formulario.addEventListener('submit', function (event) {
 
+    event.preventDefault();
+
         const formData = {
             fechaTurno: document.querySelector('#fechaTurno').value
         };

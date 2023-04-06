@@ -4,6 +4,8 @@ window.addEventListener('load', function () {
 
     formulario.addEventListener('submit', function (event) {
 
+        event.preventDefault();
+
         const formData = {
             nombre: document.querySelector('#nombre').value,
             apellido: document.querySelector('#apellido').value,
@@ -57,10 +59,10 @@ window.addEventListener('load', function () {
 
     (function () {
         let pathname = window.location.pathname;
-       if (pathname === "/") {
+        if (pathname === "/") {
             document.querySelector(".nav .nav-item a:first").addClass("active");
-       } else if (pathname == "/listaOdontologo.html") {
-         document.querySelector(".nav .nav-item a:last").addClass("active");
-       }
+        } else if (pathname == "/listaOdontologo.html") {
+            document.querySelector(".nav .nav-item a:last").addClass("active");
+        }
     })();
 });

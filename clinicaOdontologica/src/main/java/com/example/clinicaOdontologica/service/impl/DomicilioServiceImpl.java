@@ -2,6 +2,7 @@ package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.DomicilioDTO;
 import com.example.clinicaOdontologica.entity.Domicilio;
+import com.example.clinicaOdontologica.exception.BadRequestException;
 import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.repository.IDomicilioRepository;
 import com.example.clinicaOdontologica.service.IDomicilioService;
@@ -9,6 +10,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
@@ -38,9 +40,14 @@ public class DomicilioServiceImpl implements IDomicilioService {
     }
 
     @Override
-    public void crearDomicilio(DomicilioDTO domicilioDTO) {
-        logger.debug("Guardando domicilio: " + domicilioDTO);
-        saveDomicilio(domicilioDTO);
+    public void crearDomicilio(DomicilioDTO domicilioDTO) throws BadRequestException {
+       if (domicilioDTO.equals(null) || domicilioDTO.getLocalidad() == null){
+           throw new BadRequestException("Hay datos nulos");
+       }
+       else{
+           logger.debug("Domicilio creado: " + domicilioDTO.toString());
+           saveDomicilio(domicilioDTO);
+       }
     }
 
     @Override

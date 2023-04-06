@@ -15,12 +15,11 @@ window.addEventListener('load', function () {
 
                 for (turno of data) {
 
-                    //Mostrando los datos por consola
+                    //Mostrando los datos por consola           
+                    console.log("odontologo:" + turno.odontologo.id);
+                    console.log("odontologo:" + turno.odontologo.nombre);
+                    console.log("odontologo:" + turno.paciente.id);
                     
-            
-                    console.log("paciente:" + turno.paciente);
-                    console.log("odontologo:" + turno.odontologo);
-
                     var table = document.querySelector("#turnoTable");
                     var turnoRow = table.insertRow();
 
@@ -41,8 +40,8 @@ window.addEventListener('load', function () {
 
                     turnoRow.innerHTML = '<td>' + updateButton + '</td>' +
                         '<td class=\"td_fechaTurno\">' + turno.fechaTurno + '</td>' +
-                        '<td class=\"td_paciente\">' + turno.paciente + '</td>' +
-                        '<td class=\"td_odontologo\">' + turno.odontologo + '</td>' +
+                        '<td class=\"td_paciente.id\">' + turno.paciente.nombre + '</td>' +
+                        '<td class=\"td_odontologo.id\">' + turno.odontologo.nombre + '</td>' +
                         '<td>' + deleteButton + '</td>';
 
                 };

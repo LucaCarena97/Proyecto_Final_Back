@@ -27,14 +27,15 @@ public class GlobalExeptionHandler {
     @ExceptionHandler(BadRequestException.class)
     public ResponseEntity<String> badRequestException(BadRequestException ex) {
         logger.error(ex.getMessage());
-        return new ResponseEntity<>("Existen campos vacíos",
+        return new ResponseEntity<>("No hay datos para guardar o hay campos nulos",
                 HttpStatus.BAD_REQUEST);
     }
 
+    /*
     @ExceptionHandler(ServiceException.class)
     public ResponseEntity<String> serviceException(ServiceException ex) {
         logger.error(ex.getMessage());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
     }
-
+*/
 }

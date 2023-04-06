@@ -3,7 +3,6 @@ package com.example.clinicaOdontologica.controller;
 import com.example.clinicaOdontologica.dto.DomicilioDTO;
 import com.example.clinicaOdontologica.exception.BadRequestException;
 import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
-import com.example.clinicaOdontologica.exception.ServiceException;
 import com.example.clinicaOdontologica.service.IDomicilioService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,9 +20,9 @@ public class DomicilioController {
     private IDomicilioService domicilioService;
 
     @PostMapping
-    public ResponseEntity<?> crearDomicilio(@Valid @RequestBody DomicilioDTO domicilioDTO) {
+    public ResponseEntity<?> crearDomicilio(@Valid @RequestBody DomicilioDTO domicilioDTO) throws BadRequestException {
         domicilioService.crearDomicilio(domicilioDTO);
-        return ResponseEntity.ok(HttpStatus.OK);
+        return ResponseEntity.ok("Se guardo el domicilio correctamente");
     }
 
     @GetMapping("/{id}")

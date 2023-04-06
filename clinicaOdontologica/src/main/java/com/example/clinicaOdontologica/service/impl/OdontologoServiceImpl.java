@@ -2,6 +2,7 @@ package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.OdontologoDTO;
 import com.example.clinicaOdontologica.entity.Odontologo;
+import com.example.clinicaOdontologica.exception.BadRequestException;
 import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.repository.IOdontologoRepository;
 import com.example.clinicaOdontologica.service.IOdontologoService;
@@ -32,9 +33,14 @@ public class OdontologoServiceImpl implements IOdontologoService {
     }
 
     @Override
-    public void crearOdontologo(OdontologoDTO odontologoDTO) {
-        logger.debug("Guardando domicilio: " + odontologoDTO);
-        saveOdontologo(odontologoDTO);
+    public void crearOdontologo(OdontologoDTO odontologoDTO) throws BadRequestException {
+        if (odontologoDTO.equals(null) || odontologoDTO.getApellido() == null){
+            throw new BadRequestException("Hay datos nulos");
+        }
+        else{
+            logger.debug("Domicilio creado: " + odontologoDTO.toString());
+            saveOdontologo(odontologoDTO);
+        }
     }
 
     @Override

@@ -1,6 +1,7 @@
 package com.example.clinicaOdontologica.controller;
 
 import com.example.clinicaOdontologica.dto.TurnoDTO;
+import com.example.clinicaOdontologica.exception.BadRequestException;
 import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.service.ITurnoService;
 import jakarta.persistence.Access;
@@ -20,9 +21,9 @@ public class TurnoController {
     private ITurnoService turnoService;
 
     @PostMapping
-    public ResponseEntity<?> crearTurno(@Valid @RequestBody TurnoDTO turnoDTO) {
+    public ResponseEntity<?> crearTurno(@Valid @RequestBody TurnoDTO turnoDTO) throws BadRequestException {
         turnoService.crearTurno(turnoDTO);
-        return ResponseEntity.ok(HttpStatus.OK);
+        return ResponseEntity.ok("Se guardo el turno correctamente");
     }
 
     @GetMapping("/{id}")

@@ -2,6 +2,7 @@ package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.TurnoDTO;
 import com.example.clinicaOdontologica.entity.Turno;
+import com.example.clinicaOdontologica.exception.BadRequestException;
 import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.repository.ITurnoRepository;
 import com.example.clinicaOdontologica.service.ITurnoService;
@@ -32,9 +33,14 @@ public class TurnoServiceImpl implements ITurnoService {
     }
 
     @Override
-    public void crearTurno(TurnoDTO turnoDTO) {
-        logger.debug("Guardando turno: " + turnoDTO);
-        saveTurno(turnoDTO);
+    public void crearTurno(TurnoDTO turnoDTO) throws BadRequestException {
+        if (turnoDTO.equals(null) || turnoDTO.getFechaTurno() == null){
+            throw new BadRequestException("Hay datos nulos");
+        }
+        else{
+            logger.debug("Domicilio creado: " + turnoDTO.toString());
+            saveTurno(turnoDTO);
+        }
     }
 
     @Override

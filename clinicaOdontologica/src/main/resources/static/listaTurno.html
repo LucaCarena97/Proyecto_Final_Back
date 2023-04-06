@@ -12,25 +12,29 @@
     <script type="text/javascript" src="/js/get_turno.js"></script>
     <script type="text/javascript" src="/js/put_turno.js"></script>
     <script type="text/javascript" src="/js/delete_turno.js"></script>
+    <script type="text/javascript" src="/js/get_paciente.js"></script>
+    <script type="text/javascript" src="/js/put_paciente.js"></script>
+    <link rel="stylesheet" href="/css/lista.css">
 </head>
 
 <body>
+
     <div class="container">
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link" href="altaTurno.html">Agregar nuevo</a>
+                <a class="nav-link" href="altaTurno.html">Agregar nuevo Turno</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="listaTurno.html">Todas</a>
+                <a class="nav-link" href="listaTurno.html">Listado de turnos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.html">Principal</a>
             </li>
         </ul>
 
-        <div id="div_student_table">
-            <h1>Turno</h1>
-            <div class="row col-md-6 table-responsive">
+        <div id="div_odoPac_table">
+            <h1>Planilla Turnos</h1>
+            <div class="row table-responsive">
                 <table id="turnoTable" class="table table-striped">
                     <thead>
                         <tr>
@@ -45,20 +49,18 @@
                 </table>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6" style="display: none;
-											background-color:#e6fffa; padding:10px; border-radius:3px" id="div_turno_put">
+        <div class="form">
+            <div class="col-sm-6" style="display: none;padding:10px; border-radius:3px" id="div_turno_put">
                 <form id="form_turno">
                     <div class="form-group">
                         <label>Id:</label>
                         <input type="number" class="form-control" id="turno_id" readonly>
                     </div>
-                    
+
                     <div class="form-group">
                         <label>Fecha::</label>
                         <input type="datetime-local" class="form-control" placeholder="fechaTurno" id="fechaTurno">
                     </div>
-
 
                     <button type="submit" class="btn btn-primary">Modificar</button>
                 </form>
