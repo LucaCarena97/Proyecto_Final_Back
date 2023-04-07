@@ -1,3 +1,4 @@
+/*
 function deleteBy(id) {
     const url = '/turno/delete/' + id;
     const settings = {
@@ -10,3 +11,4 @@ function deleteBy(id) {
     document.querySelector(row_id).remove();
 
 }
+*/

@@ -1,6 +1,7 @@
 package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.OdontologoDTO;
+import com.example.clinicaOdontologica.exception.BadRequestException;
 import com.example.clinicaOdontologica.service.IOdontologoService;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.MethodOrderer;
@@ -23,7 +24,7 @@ public class OdontologoServiceImplTest {
 
     @Test
     @Order(1)
-    public void crearOdontologoTest() {
+    public void crearOdontologoTest() throws BadRequestException {
 
         logger.info("CREANDO ODONTOLOGO");
 

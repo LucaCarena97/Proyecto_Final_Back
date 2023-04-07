@@ -1,3 +1,4 @@
+/*
 window.addEventListener('load', function () {
 
     const formulario = document.querySelector('#form_turno');
@@ -43,3 +44,5 @@ function findBy(id) {
             alert("Error: " + error);
         })
 }
+
+*/

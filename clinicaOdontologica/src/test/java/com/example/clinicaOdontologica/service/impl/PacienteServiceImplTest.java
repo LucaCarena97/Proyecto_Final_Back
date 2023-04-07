@@ -1,6 +1,8 @@
 package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.PacienteDTO;
+import com.example.clinicaOdontologica.exception.BadRequestException;
+import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.service.IPacienteService;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.MethodOrderer;
@@ -25,7 +27,7 @@ class PacienteServiceImplTest {
 
     @Test
     @Order(1)
-    public void crearPacienteTest() {
+    public void crearPacienteTest() throws BadRequestException {
 
         logger.info("CREANDO PACIENTE");
 
@@ -46,12 +48,12 @@ class PacienteServiceImplTest {
 
      @Test
      @Order(2)
-    public void eliminar() {
+    public void eliminar() throws ResourceNotFoundException {
 
         logger.info("ELIMINANDO PACIENTE");
 
-        pacienteService.eliminarPaciente(4L);
-        assertEquals(pacienteService.buscarPaciente(4L), null);
+        pacienteService.eliminarPaciente(1L);
+        assertEquals(pacienteService.buscarPaciente(1L), null);
 
     }
 

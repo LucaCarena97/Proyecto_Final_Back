@@ -1,3 +1,4 @@
+/*
 window.addEventListener('load', function () {
 
     (function () {
@@ -57,3 +58,4 @@ window.addEventListener('load', function () {
 
 
 })
+*/

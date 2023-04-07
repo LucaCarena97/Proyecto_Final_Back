@@ -1,10 +1,11 @@
+/*
 window.addEventListener('load', function () {
 
     const formulario = document.querySelector('#nuevo_turno');
 
     formulario.addEventListener('submit', function (event) {
 
-    event.preventDefault();
+    //event.preventDefault();
 
         const formData = {
             fechaTurno: document.querySelector('#fechaTurno').value
@@ -63,3 +64,5 @@ window.addEventListener('load', function () {
         }
     })();
 });
+
+*/

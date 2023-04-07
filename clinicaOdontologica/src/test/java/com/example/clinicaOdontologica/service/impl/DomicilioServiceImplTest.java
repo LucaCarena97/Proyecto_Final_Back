@@ -1,6 +1,7 @@
 package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.DomicilioDTO;
+import com.example.clinicaOdontologica.exception.BadRequestException;
 import com.example.clinicaOdontologica.service.IDomicilioService;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.*;
@@ -24,7 +25,7 @@ class DomicilioServiceImplTest {
 
     @Test
     @Order(1)
-    public void crearDomicilioTest() {
+    public void crearDomicilioTest() throws BadRequestException {
 
         logger.info("GUARDANDO DOMICILIO");
 

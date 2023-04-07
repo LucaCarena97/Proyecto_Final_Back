@@ -4,7 +4,7 @@ window.addEventListener('load', function () {
 
     formulario.addEventListener('submit', function (event) {
 
-        event.preventDefault();
+        //event.preventDefault();
 
         const formData = {
             nombre: document.querySelector('#nombre').value,

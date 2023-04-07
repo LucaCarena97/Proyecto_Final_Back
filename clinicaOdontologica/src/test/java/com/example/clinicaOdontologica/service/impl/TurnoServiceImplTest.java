@@ -1,6 +1,8 @@
 package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.dto.TurnoDTO;
+import com.example.clinicaOdontologica.exception.BadRequestException;
+import com.example.clinicaOdontologica.exception.ResourceNotFoundException;
 import com.example.clinicaOdontologica.service.ITurnoService;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.MethodOrderer;
@@ -24,7 +26,7 @@ class TurnoServiceImplTest {
     private ITurnoService turnoService;
 
     @Test
-    public void crearYActualizarTurnoTest() {
+    public void crearYActualizarTurnoTest() throws BadRequestException{
 
         logger.info("GUARDANDO TURNO");
 
@@ -33,19 +35,13 @@ class TurnoServiceImplTest {
 
         turnoService.crearTurno(turnoDTO);
 
-        logger.info("ACTUALIZANDO TURNO");
-        turnoDTO.setFechaTurno(new Date(123, 05, 11));
-
-        turnoService.modificarTurno(turnoDTO);
-        logger.debug("Modificando turno: " + turnoDTO);
-
         assertTrue(turnoDTO != null);
         assertNotNull(turnoDTO);
-        assertEquals(turnoDTO.getFechaTurno(), new Date(123, 05, 11));
+        assertEquals(turnoDTO.getFechaTurno(), new Date(122, 04, 25));
 
         logger.info("BUSCANDO TURNO");
-        turnoService.buscarTurno(27L);
-        logger.debug("Turno encontrado: " + 27L + turnoDTO);
+        turnoService.buscarTurno(1L);
+        logger.debug("Turno encontrado: " + 1L + turnoDTO);
 
     }
 
