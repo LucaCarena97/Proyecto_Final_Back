@@ -1,4 +1,4 @@
-/*package com.example.clinicaOdontologica.user;
+/*package com.example.clinicaOdontologica.service.impl;
 
 import com.example.clinicaOdontologica.repository.IUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +21,8 @@ public class DataLoader implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
         BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         String contrasena1 = passwordEncoder.encode("contrasena1");
-        String contrasena2 = passwordEncoder.encode("contrasena2");
+        BCryptPasswordEncoder passwordEncoder2 = new BCryptPasswordEncoder();
+        String contrasena2 = passwordEncoder2.encode("contrasena2");
 
         userRepository.save(new AppUser("Luca", "Luca97", "luca@gmail.com", contrasena1, AppUserRol.ADMIN));
         userRepository.save(new AppUser("Luca2", "Luca98", "luca1@gmail.com", contrasena2, AppUserRol.USER));

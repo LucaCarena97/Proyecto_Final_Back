@@ -980,3 +980,79 @@ DEBUG   2023-04-07 19:17:20,750 [http-nio-8080-exec-1] com.example.clinicaOdonto
 DEBUG   2023-04-07 19:17:20,884 [http-nio-8080-exec-4] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando pacientes...
 DEBUG   2023-04-07 19:17:23,982 [http-nio-8080-exec-5] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando pacientes...
 DEBUG   2023-04-07 19:17:31,006 [http-nio-8080-exec-1] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologos...
+INFO    2023-04-07 19:25:56,283 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-04-07 19:25:56,290 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Domicilio creado: DomicilioDTO(id=null, calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-04-07 19:25:56,423 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Domicilio creado: DomicilioDTO(id=null, calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba)
+DEBUG   2023-04-07 19:25:56,446 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-04-07 19:25:56,526 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Buscando domicilios...
+DEBUG   2023-04-07 19:25:56,529 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: [DomicilioDTO(id=2, calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba), DomicilioDTO(id=1, calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)]
+INFO    2023-04-08 10:24:32,611 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-04-08 10:24:32,674 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Domicilio creado: DomicilioDTO(id=null, calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-04-08 10:24:32,805 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Domicilio creado: DomicilioDTO(id=null, calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba)
+DEBUG   2023-04-08 10:24:32,826 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-04-08 10:24:32,911 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Buscando domicilios...
+DEBUG   2023-04-08 10:24:32,914 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: [DomicilioDTO(id=3, calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba), DomicilioDTO(id=4, calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba), DomicilioDTO(id=1, calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba), DomicilioDTO(id=2, calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba)]
+INFO    2023-04-08 10:25:09,032 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImplTest  - CREANDO ODONTOLOGO
+DEBUG   2023-04-08 10:25:09,036 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Domicilio creado: OdontologoDTO(id=null, nombre=Ramiro, apellido=Perez, matricula=223344)
+INFO    2023-04-08 10:25:09,183 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImplTest  - BUSCANDO ODONTOLOGO
+DEBUG   2023-04-08 10:25:09,183 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologo: 1
+DEBUG   2023-04-08 10:25:09,228 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImplTest  - Buscando odontologo con id: 1
+INFO    2023-04-08 10:25:34,156 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImplTest  - CREANDO PACIENTE
+DEBUG   2023-04-08 10:25:34,160 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Domicilio creado: PacienteDTO(id=null, nombre=Juan, apellido=Gonzalez, dni=66773322, fechaDeIngreso=Tue Apr 05 00:00:00 ART 2022)
+INFO    2023-04-08 10:25:34,304 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImplTest  - ELIMINANDO PACIENTE
+DEBUG   2023-04-08 10:25:34,305 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando paciente: 1
+DEBUG   2023-04-08 10:25:34,366 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Eliminando paciente: 1
+DEBUG   2023-04-08 10:25:34,377 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando paciente: 1
+INFO    2023-04-08 10:25:56,808 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-04-08 10:25:56,812 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImpl  - Domicilio creado: TurnoDTO(id=null, fechaTurno=Wed May 25 00:00:00 ART 2022, paciente=null, odontologo=null)
+INFO    2023-04-08 10:25:56,953 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-04-08 10:25:56,954 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImpl  - Buscando turno: 1
+DEBUG   2023-04-08 10:25:57,002 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImplTest  - Turno encontrado: 1TurnoDTO(id=null, fechaTurno=Wed May 25 00:00:00 ART 2022, paciente=null, odontologo=null)
+DEBUG   2023-04-08 10:27:28,308 [http-nio-8080-exec-6] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologos...
+DEBUG   2023-04-08 10:27:32,056 [http-nio-8080-exec-5] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologos...
+DEBUG   2023-04-08 10:27:37,061 [http-nio-8080-exec-8] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologo: 3
+DEBUG   2023-04-08 10:27:42,187 [http-nio-8080-exec-4] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologo: 3
+DEBUG   2023-04-08 10:27:42,190 [http-nio-8080-exec-4] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Modificando odontologo...
+DEBUG   2023-04-08 10:27:42,266 [http-nio-8080-exec-10] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologos...
+DEBUG   2023-04-08 10:27:43,400 [http-nio-8080-exec-9] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologos...
+DEBUG   2023-04-08 10:27:47,899 [http-nio-8080-exec-5] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando pacientes...
+DEBUG   2023-04-08 10:28:06,769 [http-nio-8080-exec-4] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Domicilio creado: PacienteDTO(id=null, nombre=carlos, apellido=perez, dni=334455622, fechaDeIngreso=Thu Apr 13 07:28:00 ART 2023)
+DEBUG   2023-04-08 10:28:09,764 [http-nio-8080-exec-9] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando pacientes...
+DEBUG   2023-04-08 10:28:16,358 [http-nio-8080-exec-1] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando paciente: 5
+DEBUG   2023-04-08 10:28:16,361 [http-nio-8080-exec-1] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Eliminando paciente: 5
+DEBUG   2023-04-08 10:28:16,859 [http-nio-8080-exec-3] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando paciente: 2
+DEBUG   2023-04-08 10:28:16,861 [http-nio-8080-exec-3] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Eliminando paciente: 2
+DEBUG   2023-04-08 10:28:17,864 [http-nio-8080-exec-5] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando pacientes...
+INFO    2023-04-08 10:29:43,506 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - GUARDANDO DOMICILIO
+DEBUG   2023-04-08 10:29:43,509 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Domicilio creado: DomicilioDTO(id=null, calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba)
+DEBUG   2023-04-08 10:29:43,654 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Domicilio creado: DomicilioDTO(id=null, calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba)
+DEBUG   2023-04-08 10:29:43,680 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - BUSCANDO TODOS LOS DOMICILIOS
+DEBUG   2023-04-08 10:29:43,759 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImpl  - Buscando domicilios...
+DEBUG   2023-04-08 10:29:43,762 [main] com.example.clinicaOdontologica.service.impl.DomicilioServiceImplTest  - Domicilios: [DomicilioDTO(id=1, calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba), DomicilioDTO(id=2, calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba), DomicilioDTO(id=5, calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba), DomicilioDTO(id=3, calle=San Martin, numero=15, localidad=Villa Maria, provincia=Cordoba), DomicilioDTO(id=4, calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba), DomicilioDTO(id=6, calle=Mitre, numero=20, localidad=San Francisco, provincia=Cordoba)]
+INFO    2023-04-08 10:29:51,994 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImplTest  - CREANDO ODONTOLOGO
+DEBUG   2023-04-08 10:29:51,998 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Domicilio creado: OdontologoDTO(id=null, nombre=Ramiro, apellido=Perez, matricula=223344)
+INFO    2023-04-08 10:29:52,154 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImplTest  - BUSCANDO ODONTOLOGO
+DEBUG   2023-04-08 10:29:52,154 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologo: 1
+DEBUG   2023-04-08 10:29:52,210 [main] com.example.clinicaOdontologica.service.impl.OdontologoServiceImplTest  - Buscando odontologo con id: 1
+INFO    2023-04-08 10:30:01,296 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImplTest  - CREANDO PACIENTE
+DEBUG   2023-04-08 10:30:01,301 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Domicilio creado: PacienteDTO(id=null, nombre=Juan, apellido=Gonzalez, dni=66773322, fechaDeIngreso=Tue Apr 05 00:00:00 ART 2022)
+INFO    2023-04-08 10:30:01,449 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImplTest  - ELIMINANDO PACIENTE
+DEBUG   2023-04-08 10:30:01,449 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando paciente: 1
+INFO    2023-04-08 10:30:12,967 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImplTest  - GUARDANDO TURNO
+DEBUG   2023-04-08 10:30:12,970 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImpl  - Domicilio creado: TurnoDTO(id=null, fechaTurno=Wed May 25 00:00:00 ART 2022, paciente=null, odontologo=null)
+INFO    2023-04-08 10:30:13,132 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImplTest  - BUSCANDO TURNO
+DEBUG   2023-04-08 10:30:13,132 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImpl  - Buscando turno: 1
+DEBUG   2023-04-08 10:30:13,170 [main] com.example.clinicaOdontologica.service.impl.TurnoServiceImplTest  - Turno encontrado: 1TurnoDTO(id=null, fechaTurno=Wed May 25 00:00:00 ART 2022, paciente=null, odontologo=null)
+INFO    2023-04-08 10:30:29,686 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImplTest  - CREANDO PACIENTE
+DEBUG   2023-04-08 10:30:29,689 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Domicilio creado: PacienteDTO(id=null, nombre=Juan, apellido=Gonzalez, dni=66773322, fechaDeIngreso=Tue Apr 05 00:00:00 ART 2022)
+INFO    2023-04-08 10:30:29,854 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImplTest  - ELIMINANDO PACIENTE
+DEBUG   2023-04-08 10:30:29,855 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando paciente: 1
+INFO    2023-04-08 10:31:17,425 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImplTest  - CREANDO PACIENTE
+DEBUG   2023-04-08 10:31:17,428 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Domicilio creado: PacienteDTO(id=null, nombre=Juan, apellido=Gonzalez, dni=66773322, fechaDeIngreso=Tue Apr 05 00:00:00 ART 2022)
+INFO    2023-04-08 10:31:17,605 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImplTest  - ELIMINANDO PACIENTE
+DEBUG   2023-04-08 10:31:17,605 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando paciente: 1
+INFO    2023-04-08 10:31:38,213 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImplTest  - ELIMINANDO PACIENTE
+DEBUG   2023-04-08 10:31:38,214 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando paciente: 4
+DEBUG   2023-04-08 10:31:38,373 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Eliminando paciente: 4
+DEBUG   2023-04-08 10:31:38,406 [main] com.example.clinicaOdontologica.service.impl.PacienteServiceImpl  - Buscando paciente: 4
+DEBUG   2023-04-17 10:51:24,523 [http-nio-8080-exec-1] com.example.clinicaOdontologica.service.impl.OdontologoServiceImpl  - Buscando odontologos...

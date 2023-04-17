@@ -1,4 +1,5 @@
-/*package com.example.clinicaOdontologica.user;
+/*
+package com.example.clinicaOdontologica.user;
 
 import jakarta.persistence.*;
 import lombok.*;

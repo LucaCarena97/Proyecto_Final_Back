@@ -83,7 +83,7 @@ public class PacienteServiceImpl implements IPacienteService {
     @Override
     public void eliminarPaciente(Long id) throws ResourceNotFoundException {
         if (buscarPaciente(id) == null) {
-            throw new ResourceNotFoundException("");
+            throw new ResourceNotFoundException("Paciente no encontrado");
         } else {
             logger.debug("Eliminando paciente: " + id);
             pacienteRepository.deleteById(id);

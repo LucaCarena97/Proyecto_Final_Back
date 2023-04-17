@@ -31,11 +31,4 @@ public class GlobalExeptionHandler {
                 HttpStatus.BAD_REQUEST);
     }
 
-    /*
-    @ExceptionHandler(ServiceException.class)
-    public ResponseEntity<String> serviceException(ServiceException ex) {
-        logger.error(ex.getMessage());
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
-    }
-*/
 }
