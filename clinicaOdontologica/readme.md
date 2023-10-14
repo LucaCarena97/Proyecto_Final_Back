@@ -1,0 +1,3 @@
+Final Back - Luca Carena
+
+Nuestro proyecto en Java Spring Boot se centra en la gestión de odontólogos en una clínica dental. Este sistema permite a la clínica llevar un registro completo de los odontólogos que forman parte de su equipo, así como agregar nuevos profesionales. Utilizando una interfaz intuitiva, el personal de la clínica puede ingresar y almacenar información de los odontólogos, como nombre, apellido y matricula. Además, el sistema permite almacenar informacion de pacientes como nombre, DNI, entre otros. Java Spring Boot garantiza la eficiencia y seguridad del sistema, lo que resulta esencial en la gestión de profesionales de la salud en una clínica dental, al tiempo que se asegura la escalabilidad para un crecimiento futuro.
