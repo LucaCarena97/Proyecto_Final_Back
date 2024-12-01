@@ -1,145 +1,117 @@
-@keyframes anim {
-    0% {
-        background-color: rgba(52, 180, 180, 0.795);
-    }
-
-    25% {
-        background-color: rgba(27, 238, 238, 0.795);
-    }
-
-    50% {
-        background-color: rgba(49, 170, 170, 0.795);
-    }
-
-    75% {
-        background-color: rgba(34, 235, 235, 0.795);
-    }
-
-    100% {
-        background-color: rgba(51, 173, 173, 0.795);
-    }
+/* Variables de colores */
+:root {
+  --primary-color: #0074d9;
+  --secondary-color: #f0f8ff;
+  --text-color: #333333;
+  --card-bg: #ffffff;
+  --border-color: #d1e7ff;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --transition: 0.3s;
 }
 
-
+/* Estilo General */
+html,
 body {
-    animation-name: anim;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+  height: 100%;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #b4d5f8;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 5%;
-    animation-name: moveLeft;
-    animation-duration: 3s;
-    
+/* Contenedor Principal */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-@keyframes moveLeft {
-    from {
-        transform: translateX(100%);
-    }
-
-    to {
-        transform: translateX(-0%);
-    }
+h1,
+h2 {
+  font-weight: bold;
 }
 
-
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-    
+h3 {
+  font-weight: 600;
+  color: var(--primary-color);
 }
 
-
-.titulo {
-    margin-top: 5%;
-    text-align: center;
-    animation-name: moveRight;
-    animation-duration: 3s;
+/* Header */
+header {
+  background-color: var(--primary-color);
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-bottom: 5px solid var(--border-color);
 }
 
-@keyframes moveRight {
-    from {
-        transform: translateX(-100%);
-    }
-
-    to {
-        transform: translateX(0%);
-    }
+.subtitulo {
+  font-size: 1.25rem;
+  font-style: italic;
+  margin-top: 0.5rem;
 }
 
-
-
-.opcion {
-    margin: 3%;
-    text-align: center;
-}
-
-
+/* Main Content */
 .opciones {
-    display: flex;
-    justify-content: space-around;
-    margin: 3%;
-    box-shadow: 2px 4px 10px;
-    background-color: rgba(53, 212, 212, 0.795);
-    animation-name: moveUp;
-    animation-duration: 3s;
+  gap: 20px;
 }
 
-
-
-@keyframes moveUp {
-    from {
-        transform: translateY(150%);
-    }
-
-    to {
-        transform: translateY(0%);
-    }
+.card {
+  width: 300px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 6px var(--shadow);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition);
 }
 
-
-@keyframes escala {
-
-    0% {
-        transform: scale(0.3);
-    }
-
-    100% {
-        transform: scale(1);
-    }
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px var(--shadow);
 }
 
-.odo {
-    display: flex;
+.card-title {
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-size: 1rem;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: background-color var(--transition), color var(--transition);
+}
+
+.btn-outline-primary {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border-top: 3px solid var(--border-color);
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Diseño Responsive */
+@media (max-width: 768px) {
+  .opciones {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    padding: 5%;
-    text-decoration: none;
-    animation-name: escala;
-    animation-duration: 3s;
-}
+  }
 
-.pac {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 5%;
-    animation-name: escala;
-    animation-duration: 4s;
-}
-
-.tur {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 5%;
-    animation-name: escala;
-    animation-duration: 5s;
+  .card {
+    width: 90%;
+  }
 }
